@@ -1,0 +1,384 @@
+---
+title: "Perícias e Auditoria em Edificações"
+subtitle: "Engenharia de Custo"
+author: "Luiz Fernando Palin Droubi"
+date: last-modified
+date-format: long
+institute: Faculdade EDUFOR
+bibliography: referencias.bib
+title-slide-attributes:
+  #data-background-image: img/Fundo_Slide_Titulo.png
+  data-background-size: contain
+  #data-background-opacity: "0.5"
+# format: 
+#   pptx:
+#     reference-doc: TEMPLATE_EDUFOR.pptx
+lang: pt
+format:
+  revealjs:
+    background-image: "./img/Fundo_Slide_Comum.jpg"
+    parallax-background-size: cover 
+    width: 1280
+    height: 720
+    # margin-top: 20%
+    theme: [default, style.scss]
+    # logo: img/logo.png
+    # theme: beige
+    # smaller: true
+    slide-number: true
+    scrollable: true
+    incremental: true
+    transition: slide
+    background-transition: fade
+fontsize: 1.8em
+---
+
+# Perícias de Custos {background-image="img/Fundo_Slide_Titulo.png"}
+
+## Introdução
+
+- [Lei 4.591/1964](https://www.planalto.gov.br/ccivil_03/leis/l4591.htm):
+  - Dispõe sôbre o condomínio em edificações e as incorporações imobiliárias.
+  
+- Por que era necessária?
+  - Antes da promulgação da Lei 4.591/64, o panorama geral das incorporações era
+o descrito pelo jurista Dr. Caio Mário da Silva Pereira, redator inicial da lei 
+citada (*apud* D'Amato e Alonso, 214, p. 499-500)
+
+## Introdução
+
+> A grita geral, no regime do Dec. Nº 5.481/28, omisso o nosso direito a 
+propósito do assunto, era a total ausência de disciplina jurídica da profissão 
+de incorporador. Apurado que se tratava de um dos mais lucrativos negócios, que
+deixava margem ampla de proveitos, atraiu grande número de interessados. A 
+princípio, as empresas construtoras fizeram destes empreendimentos o lado melhor
+de seus negócios. Depois, outros profissionais se foram aproximando, e 
+ulteriormente qualquer pessoa era incorporador. Com ou sem habilitação técnica, 
+com ou sem idoneidade financeira e moral. Encontrando campo fértil, estimulado 
+pela fome aquisitiva de unidades residenciais e comerciais, o incorporador nadou
+livremente neste mar sem controle. Muitos fizeram fortuna.
+Depois veio a época da crise. As entidades autárquicas e os estabelecimentos 
+bancários desinteressaram-se de financiar a construção de edifícios. Mudando de 
+técnica, o incorporador permaneceu firme no negócio, encontrando meios e modos 
+de reduzir os seus riscos e de não expor os seus cabedais.
+
+## Introdução
+
+> O mau incorporador, irresponsável e inconsequente, tratou de imprimir ao 
+empreendimento feição propícia e cogitou, então, de 'armar as incoporações', 
+expressão com que designava as operações iniciais de imaginar e projetar a 
+edificação, anunciar a venda com farta publicidade, colocar as unidades, 
+contratando a construção não em seu próprio nome, porém no dos adquirentes, e 
+saindo às pressas, antes que a espiral inflacionária se agravasse, encurtando os
+recursos e suscitando os desentendimentos.
+
+## Introdução
+
+- A Lei 4.591/64, portanto, veio no intuito de proteger os incautos compradores 
+dos maus incorporadores, como avalia o Eng. Paulo Grandinski (*apud* D'Amato e 
+Alonso, 214, p. 499-500):
+
+. . . 
+
+> Não é perfeita (a Lei 4.591/64), mas representa um gigantesco avanço para a
+época, em que os incorporadores podiam lançar prédios a preço de custo com cotas
+de terreno altíssimas e provisões muito baixas de construção, mesmo
+impraticáveis na data do lançamento. Compradores incautos, atraídos pelos baixos
+preços, depois de pagarem as frações ideais de tgerreno, e poucas parcelas de
+construção, eram convidados para famosas reuniões de ‘atualização de rateio de
+construção’, onde ficavam num impasse: ou concordavam com prestações mais baixas
+e aumento no prazo de entrega (as construções poderiam durar 5 ou mais anos), ou
+recebiam seu dinheiro de volta (sem correção monetária!). A Lei não previa
+penalidades para os incorporadores, que podiam fazer o que bem entendiam.
+
+## Introdução
+
+> Ficaram famosos, em São Paulo, os casos de construtora que antecipava o
+término da fachada (sem acabamento interno) para dar a impressão de prédio
+pronto, recebia a respectiva parcela (alta) e depois aplicava a já citada
+atualização de rateio de custo da construção, induzindo os compradores a
+desistirem. Outro caso famoso era o da incorporadora que, já na fase de
+planejamento previa a necessidade de duas campanhas de venda: a primeira, com
+preços irreais, baixos, para a fase inicial do prédio. Quando os rateios de
+construção se tornassem insuficientes para cobrir o custo, induziriam os
+incautos compradores a desistirem, aumentando as prestações para valores
+insuportáveis, recebendo o dinheiro de volta (sem correção). Na segunda etapa, o
+prédio era vendido a preço fechado (sem reajuste)."
+  
+## A Lei 4.591/1964
+
+> Art. 53. O Poder Executivo, através do Banco Nacional da Habitação, promoverá 
+a celebração de contratos com a Associação Brasileira de Normas Técnicas 
+(A.B.N.T.), no sentido de que esta, tendo em vista o disposto na Lei nº 4.150, 
+de novembro de 1962, prepare, no prazo máximo de 120 dias, normas que 
+estabeleçam, para cada tipo de prédio que padronizar:  
+> I - critérios e normas para cálculo de custos unitários de construção, para 
+uso dos sindicatos, na forma do art. 54;  
+> II -  critérios e normas para execução de orçamentos de custo de construção, 
+para fins de disposto no artigo 59;  
+> III - critérios e normas para a avaliação de custo global de obra, para fins 
+da alínea h, do art. 32;  
+> IV - modêlo de memorial descritivo dos acabamentos de edificação, para fins do
+disposto no art. 32;  
+> V - critério para entrosamento entre o cronograma das obras e o pagamento das
+prestações, que poderá ser introduzido nos contratos de incorporação inclusive 
+para o efeito de aplicação do disposto no § 2º do art. 48.
+
+## A NBR 12.721
+
+- Primeira edição: 1965 - NB 140 
+  - 24 projetos residenciais
+  - fora da realidade do mercado
+- Primeira atualização: 1993 - NBR 12.721/92
+- Segunda atualização: incluiu novos projetos-padrão
+- Terceira atualização: NBR 12.721/2006 (em vigor)
+  - novos projetos-padrão
+  
+## NBR 12.721
+
+- Projetos-padrão residenciais:
+  - R1-B, R1-N e R1-A
+    - residenciais, 1 andar, padrão de acabamento baixo, normal ou alto
+  - RP1Q
+    - residencial unifamiliar popular, 1 pavimento, 1 quarto!
+  - R8-B, R8-N, R8-A, R16-N e R16-A:
+    - residenciais, 8/16 andares, padrão de acabamento baixo, normal ou alto
+  - PP-B e PP-N
+    - Prédio Popular, 4 andares, padrão de acabamento baixo ou normal
+  - PIS:
+    - Projeto de Interesse Social. Residencial multifamiliar.
+
+## NBR 12.721
+
+- Projetos-padrão comerciais:
+  - CAL-8-N e CAL-8-A
+    - comercial andares livres (oito andares)
+  - CSL-8-N, CSL-8-A, CSL-16-N e CSL-16-A
+    - comercial salas e lojas (8/16 andares)
+  - GI:
+    - Galpão Industrial
+    
+## O CUB
+
+- Projetos-padrão: ver [link](http://cub.org.br/projetos-padrao)
+
+- Divulgação mensal por todos os SINDUSCON!
+
+- O que não está incluso no CUB:
+  - Projetos
+  - Equipamentos, tais como elevadores
+  - Fundações especiais
+  - Etc.
+  
+# Orçamentação
+
+## Preço de Venda e BDI
+
+- Segundo @mattos2019 [p. 279]:
+  - Preço de venda de uma obra é igual à soma de três fatores:
+    - Custos
+    - Lucro
+    - Impostos
+
+- Os custos podem ser divididos entre custos diretos e indiretos
+  - Diretos: custos que incidem diretamente sobre o produto (obra), tais
+  como insumos, mão-de-obra e equipamentos;
+  - Indiretos: custos que não estão envolvidos diretamente com o produto (obra)
+    - Ex.: Salários de supervisores, engenheiros, canteiros de obras, 
+    administração central, etc.
+    
+## Preço de Venda e BDI
+
+- BDI:
+  - trata-se de um multiplicador aplicado sobre o **custo direto** de uma obra
+  para obtenção do seu preço de venda;
+  - Veremos que existem diversas formas para o cálculo do BDI;
+  - Não existe uma forma correta;
+  - Portanto, o importante é entender o que se passa!
+  
+## Cálculo do preço de venda
+
+- Exemplo: Em uma obra com custo de R$ 100.000,00 incidem impostos de 8% sobre o
+faturamento e o construtor almeja uma lucratividade de 12% sobre o faturamento.
+Calcule o preço de venda da obra!
+  - Solução:
+    - Custo de Construcão: $\text{CC} = \text{R\$ } 100.000,00$
+    - Lucro: $L = \text{CC}\cdot 0,12 = \text{R\$ } 100.000,00 \cdot 0,12 = \text{R\$ } 12.000,00$
+    - Impostos: $I =  \text{CC}\cdot 0,08 = \text{R\$ } 100.000,00 \cdot 0,08 = \text{R\$ } 8.000,00$
+    - Preço de Venda: $\text{PV} = \text{CC} + \text{L} + \text{I} = \text{R\$ } 120.000,00$
+  - Problema:
+    - Impostos: $8\% \cdot \text{R\$ } 120.000,00 = \text{R\$ } 9.600$
+    - Lucro: $\text{LO} = \text{R\$ } 120.000,00 - \text{R\$ } 100.000,00 - \text{R\$ } 9.600 = \text{R\$ } 10.400,00$
+    - Lucro passou a ser de apenas $8,67\%$ do faturamento!
+    
+## Cálculo correto do preço de venda
+    
+- O preço de venda deve ser devidamente calculado, em função dos custos, lucros
+almejados e impostos incidentes, através da equação abaixo:
+  - $$PV = \frac{\text{CC}}{1-i\%}$$
+    - $i\%$ é uma taxa que engloba impostos e lucro.
+  
+- Exemplo:
+  - $$\text{PV} = \frac{\text{R\$ }100.000,00}{1-(0,12 + 0,08)} = \frac{\text{R\$ }100.000,00}{0,80} = \text{R \$ } 125.000,00$$
+  - Impostos: $\text{R\$ } 125.000,00 \cdot 0,08 = \text{R\$ } 10.000,00$
+  - Lucro Operacional: $\text{LO} = \text{PV} - \text{CC} - \text{I} = \text{R\$ } 15.000,00 \;(12\%!)$
+  
+## Preço de Venda e BDI
+
+- $$\text{PV} = \text{CD}\cdot(1+\text{BDI%})$$
+
+- $\text{CD}$ é o custo direto da obra;
+- $\text{BDI%}$ é o percentual a ser aplicado sobre o custo da obra para a
+obtenção do preço de venda
+
+## Composição do BDI
+
+- Assim como não estão inclusos no CUB os custos com aquisição de elevadores,
+fundações especiais, etc.
+- Também não estão inclusos no CUB eventuais despesas financeiras, impostos, 
+benefícios (lucro) do construtor, etc.
+- Os custos extra-CUB, tais como aquisição de elevadores, são custo direto da
+obra e devem ser somados ao custo básico para a determinação do custo direto da
+obra
+- As despesas financeiras, impostos e outros custos indiretos devem integrar o
+BDI
+
+## Fórmula para o Preço de Venda
+
+- O PV pode ser calculado diretamente conforme a equação abaixo:
+
+  - $$\text{PV} = \frac{\text{CD} + \text{CI} + \text{AC} + \text{DF} + \text{IC}}{1-(\text{LO%} + \text{IMP%})}$$
+  
+- $\text{CI}$ é o custo indireto da obra;
+- $\text{AC}$ é uma verba calculada para o pagamento das despesas da 
+administração central da construtora;
+- $\text{DF}$ são as despesas financeiras;
+- $\text{IC}$ é uma verba que deve ser prevista para as contingências;
+- $\text{LO%}$ é um percentual que reflete o lucro operacional da construtora;
+- $\text{IMP%}$ é o percentual que reflete todos os impostos incidentes sobre o
+faturamento (IR não entra!)
+
+## Fórmula do BDI
+
+- O BDI pode ser calculado conforme a fórmula abaixo [@mattos2019, p. 291]:
+  - $$\text{BDI%} = \frac{(1+\text{CI})\cdot(1 + \text{AC} + \text{DF} + \text{IC})}{1-(\text{LO%} + \text{IMP%})} - 1$$
+  
+## Impostos
+
+- Muitos impostos incidem sobre a compra dos materiais (ICMS, ISS) e mão-de-obra
+(INSS, FGTS) e já estão orçados como custos diretos
+
+- Os impostos que incidem sobre o faturamento também devem ser computados:
+  - PIS (0,65% sobre o faturamento)
+  - COFINS (3% sobre o faturamento)
+  - ISSQN (depende do município e da atividade)
+  - IRPJ (depende do regime)
+  - CSLL (depende do regime)
+  
+- No entanto, IRPJ e CSLL são impostos diretos, que incidem sobre a empresa, e 
+não devem ser repassados ao contratante!
+
+## IRPJ e CSLL
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- IRPJ no Regime de Lucro Presumido:
+  - Alíquota de 15%
+  - Base de cálculo: 8% da receita bruta
+  - Ou seja, 1,2% do faturamento
+
+- CSLL no Regime de Lucro Presumido:
+  - Alíquota: 9%
+  - Base de cálculo: 12% da receita bruta
+  - Ou seja, 1,08% sobre o faturamento
+  
+:::
+
+::: {.column width="50%"}
+
+- IRPJ no Regime de Lucro Real:
+  - Alíquotas: 15% (até R$ 20.000) e 25% (o que exceder)
+  - Base de cálculo: Lucro real
+
+- CSLL no Regime de Lucro Real:
+  - Alíquota: 9%
+  - Base de cálculo: Lucro real até R$ 20.000,00
+  
+:::
+::::
+    
+## Lucro Líquido
+
+- Lucro líquido da construtora depende do regime tributário.
+
+- Exemplo:
+  - Regime de Lucro Real
+  - Lucro operacional: R$ 100.000,00
+  - IRPJ: 25%
+  - CSLL: 9%
+  
+- $\text{LL} = \text{LO}\cdot (1-\text{IRPJ} - \text{CSLL}) = \text{LO}\cdot (1 - 0,25 - 0,09) = 0,66\cdot \text{LO}$
+
+- $\text{LL} = 100.000 \cdot 0,66 = \text{R\$ } 66.000,00$
+  
+## Exercício
+
+- Uma obra tem custo direto orçado de R$ 2.582.000,00. Uma construtora estima
+que terá que arcar com um custo indireto de R$ 250.560,00 para conseguir
+executar esta obra. Além disso, ela estima que, para remunerar o seu escritório
+central, ela precisa de algo em torno de aproximadamente 4% do custo total da obra.
+Além disto, as despesas financeiras devem ser da ordem de 1,5%. Os impostos que
+incidem sobre o faturamento (PIS, COFINS e ISSQN) somam 6,65% e a lucrativadade
+almejada é de 8%, antes do IRPJ e CSLL! Calcule o valor do BDI!
+
+## Fórmula do BDI para obras públicas
+
+- Para o TCU, nas obras públicas o lucro deve incidir sobre o custo da obra, e 
+não sobre o faturamento!
+
+- $$\text{BDI} = \frac{(1 + (\text{AC} + S + R + G))(1 + DF)(1+L)}{(1-I)}$$
+  - $S$ é uma taxa representativa dos seguros;
+  - $R$ é uma taxa que corresponde aos riscos;
+  - $G$ pe uma taxa que representa ônus das garantias exigidas no edital;
+  
+- Acórdão 2.622/2013: estabelece parâmetros referenciais para diversos tipos de
+obras públicas.
+
+## Desoneração da folha de pagamento
+
+- Com a desoneração da folha de pagamento, em 2013, o INSS (20%) deixou de ser
+recolhido sobre os salários e criou-se a Contribuição Previdenciária sobre a 
+Receira Bruta (CPRB), com alíquota de 4,5% sobre o faturamento
+
+- Ou seja, diminuem os custos diretos da obra.
+  - Base de preços desoneradas:
+    - Por exemplo: SINAPI desonerado
+
+- Porém o BDI aumenta, pois a CPRB passa a fazer parte do BDI!
+
+## Reforma Tributária
+
+![Impostos a serem extintos pela reforma tributária](./img/Reforma_Tributaria.png)
+
+## Reforma Tributária 
+
+- Com a reforma tributária, os impostos passarão a ser do tipo *valor agregado*.
+  - Grosso modo: eles incidirão sobre os custos indiretos e sobre o lucro do
+  construtor (valor agregado), mas não sobre os custos diretos
+  - O cálculo do BDI deverá mudar!
+
+- Ver [link](https://www12.senado.leg.br/noticias/materias/2023/12/21/reforma-tributaria-promulgada-principais-mudancas-dependem-de-novas-leis)
+
+  
+## Conclusão
+
+- Nas perícias de custo, é importante atentar para o regime tributário da 
+empresa e para os impostos locais (ISSQN) incidentes sobre a(s) atividade(s) no
+cálculo do BDI
+
+- O BDI varia de uma obra para a outra. Segundo @mattos2019 [p. 294]:
+  - Obras grandes, longas e simples tendem a possuir um BDI reduzido, enquanto
+  obras complexas, rápidas e pequenas trabalham com BDI mais elevado!
+
+## Referências

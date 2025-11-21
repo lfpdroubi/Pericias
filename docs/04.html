@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="pt"><head>
+<script src="04_files/libs/clipboard/clipboard.min.js"></script>
+<script src="04_files/libs/quarto-html/tabby.min.js"></script>
+<script src="04_files/libs/quarto-html/popper.min.js"></script>
+<script src="04_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="04_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="04_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="04_files/libs/quarto-html/quarto-syntax-highlighting-985aa47af68dae11cd4d235c71fb941e.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.27">
+
+  <meta name="author" content="Luiz Fernando Palin Droubi">
+  <title>Perícias e Auditoria em Edificações</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="04_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="04_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="04_files/libs/revealjs/dist/theme/quarto-d03b44c5569ce6b170d845e8611ba772.css">
+  <link href="04_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="04_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="04_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="04_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-size="contain" class="quarto-title-block center">
+  <h1 class="title">Perícias e Auditoria em Edificações</h1>
+  <p class="subtitle">Engenharia de Custo</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Luiz Fernando Palin Droubi 
+</div>
+        <p class="quarto-title-affiliation">
+            Faculdade EDUFOR
+          </p>
+    </div>
+</div>
+
+  <p class="date">21 de novembro de 2025</p>
+</section>
+<section>
+<section id="perícias-de-custos" class="title-slide slide level1 center" data-background-image="img/Fundo_Slide_Titulo.png">
+<h1>Perícias de Custos</h1>
+
+</section>
+<section id="introdução" class="slide level2">
+<h2>Introdução</h2>
+<ul>
+<li class="fragment"><a href="https://www.planalto.gov.br/ccivil_03/leis/l4591.htm">Lei 4.591/1964</a>:
+<ul>
+<li class="fragment">Dispõe sôbre o condomínio em edificações e as incorporações imobiliárias.</li>
+</ul></li>
+<li class="fragment">Por que era necessária?
+<ul>
+<li class="fragment">Antes da promulgação da Lei 4.591/64, o panorama geral das incorporações era o descrito pelo jurista Dr.&nbsp;Caio Mário da Silva Pereira, redator inicial da lei citada (<em>apud</em> D’Amato e Alonso, 214, p.&nbsp;499-500)</li>
+</ul></li>
+</ul>
+</section>
+<section id="introdução-1" class="slide level2">
+<h2>Introdução</h2>
+<blockquote>
+<p>A grita geral, no regime do Dec.&nbsp;Nº 5.481/28, omisso o nosso direito a propósito do assunto, era a total ausência de disciplina jurídica da profissão de incorporador. Apurado que se tratava de um dos mais lucrativos negócios, que deixava margem ampla de proveitos, atraiu grande número de interessados. A princípio, as empresas construtoras fizeram destes empreendimentos o lado melhor de seus negócios. Depois, outros profissionais se foram aproximando, e ulteriormente qualquer pessoa era incorporador. Com ou sem habilitação técnica, com ou sem idoneidade financeira e moral. Encontrando campo fértil, estimulado pela fome aquisitiva de unidades residenciais e comerciais, o incorporador nadou livremente neste mar sem controle. Muitos fizeram fortuna. Depois veio a época da crise. As entidades autárquicas e os estabelecimentos bancários desinteressaram-se de financiar a construção de edifícios. Mudando de técnica, o incorporador permaneceu firme no negócio, encontrando meios e modos de reduzir os seus riscos e de não expor os seus cabedais.</p>
+</blockquote>
+</section>
+<section id="introdução-2" class="slide level2">
+<h2>Introdução</h2>
+<blockquote>
+<p>O mau incorporador, irresponsável e inconsequente, tratou de imprimir ao empreendimento feição propícia e cogitou, então, de ‘armar as incoporações’, expressão com que designava as operações iniciais de imaginar e projetar a edificação, anunciar a venda com farta publicidade, colocar as unidades, contratando a construção não em seu próprio nome, porém no dos adquirentes, e saindo às pressas, antes que a espiral inflacionária se agravasse, encurtando os recursos e suscitando os desentendimentos.</p>
+</blockquote>
+</section>
+<section id="introdução-3" class="slide level2">
+<h2>Introdução</h2>
+<ul>
+<li class="fragment">A Lei 4.591/64, portanto, veio no intuito de proteger os incautos compradores dos maus incorporadores, como avalia o Eng. Paulo Grandinski (<em>apud</em> D’Amato e Alonso, 214, p.&nbsp;499-500):</li>
+</ul>
+<div class="fragment">
+<blockquote>
+<p>Não é perfeita (a Lei 4.591/64), mas representa um gigantesco avanço para a época, em que os incorporadores podiam lançar prédios a preço de custo com cotas de terreno altíssimas e provisões muito baixas de construção, mesmo impraticáveis na data do lançamento. Compradores incautos, atraídos pelos baixos preços, depois de pagarem as frações ideais de tgerreno, e poucas parcelas de construção, eram convidados para famosas reuniões de ‘atualização de rateio de construção’, onde ficavam num impasse: ou concordavam com prestações mais baixas e aumento no prazo de entrega (as construções poderiam durar 5 ou mais anos), ou recebiam seu dinheiro de volta (sem correção monetária!). A Lei não previa penalidades para os incorporadores, que podiam fazer o que bem entendiam.</p>
+</blockquote>
+</div>
+</section>
+<section id="introdução-4" class="slide level2">
+<h2>Introdução</h2>
+<blockquote>
+<p>Ficaram famosos, em São Paulo, os casos de construtora que antecipava o término da fachada (sem acabamento interno) para dar a impressão de prédio pronto, recebia a respectiva parcela (alta) e depois aplicava a já citada atualização de rateio de custo da construção, induzindo os compradores a desistirem. Outro caso famoso era o da incorporadora que, já na fase de planejamento previa a necessidade de duas campanhas de venda: a primeira, com preços irreais, baixos, para a fase inicial do prédio. Quando os rateios de construção se tornassem insuficientes para cobrir o custo, induziriam os incautos compradores a desistirem, aumentando as prestações para valores insuportáveis, recebendo o dinheiro de volta (sem correção). Na segunda etapa, o prédio era vendido a preço fechado (sem reajuste).”</p>
+</blockquote>
+</section>
+<section id="a-lei-4.5911964" class="slide level2">
+<h2>A Lei 4.591/1964</h2>
+<blockquote>
+<p>Art. 53. O Poder Executivo, através do Banco Nacional da Habitação, promoverá a celebração de contratos com a Associação Brasileira de Normas Técnicas (A.B.N.T.), no sentido de que esta, tendo em vista o disposto na Lei nº 4.150, de novembro de 1962, prepare, no prazo máximo de 120 dias, normas que estabeleçam, para cada tipo de prédio que padronizar:<br>
+I - critérios e normas para cálculo de custos unitários de construção, para uso dos sindicatos, na forma do art. 54;<br>
+II - critérios e normas para execução de orçamentos de custo de construção, para fins de disposto no artigo 59;<br>
+III - critérios e normas para a avaliação de custo global de obra, para fins da alínea h, do art. 32;<br>
+IV - modêlo de memorial descritivo dos acabamentos de edificação, para fins do disposto no art. 32;<br>
+V - critério para entrosamento entre o cronograma das obras e o pagamento das prestações, que poderá ser introduzido nos contratos de incorporação inclusive para o efeito de aplicação do disposto no § 2º do art. 48.</p>
+</blockquote>
+</section>
+<section id="a-nbr-12.721" class="slide level2">
+<h2>A NBR 12.721</h2>
+<ul>
+<li class="fragment">Primeira edição: 1965 - NB 140
+<ul>
+<li class="fragment">24 projetos residenciais</li>
+<li class="fragment">fora da realidade do mercado</li>
+</ul></li>
+<li class="fragment">Primeira atualização: 1993 - NBR 12.721/92</li>
+<li class="fragment">Segunda atualização: incluiu novos projetos-padrão</li>
+<li class="fragment">Terceira atualização: NBR 12.721/2006 (em vigor)
+<ul>
+<li class="fragment">novos projetos-padrão</li>
+</ul></li>
+</ul>
+</section>
+<section id="nbr-12.721" class="slide level2">
+<h2>NBR 12.721</h2>
+<ul>
+<li class="fragment">Projetos-padrão residenciais:
+<ul>
+<li class="fragment">R1-B, R1-N e R1-A
+<ul>
+<li class="fragment">residenciais, 1 andar, padrão de acabamento baixo, normal ou alto</li>
+</ul></li>
+<li class="fragment">RP1Q
+<ul>
+<li class="fragment">residencial unifamiliar popular, 1 pavimento, 1 quarto!</li>
+</ul></li>
+<li class="fragment">R8-B, R8-N, R8-A, R16-N e R16-A:
+<ul>
+<li class="fragment">residenciais, 8/16 andares, padrão de acabamento baixo, normal ou alto</li>
+</ul></li>
+<li class="fragment">PP-B e PP-N
+<ul>
+<li class="fragment">Prédio Popular, 4 andares, padrão de acabamento baixo ou normal</li>
+</ul></li>
+<li class="fragment">PIS:
+<ul>
+<li class="fragment">Projeto de Interesse Social. Residencial multifamiliar.</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="nbr-12.721-1" class="slide level2">
+<h2>NBR 12.721</h2>
+<ul>
+<li class="fragment">Projetos-padrão comerciais:
+<ul>
+<li class="fragment">CAL-8-N e CAL-8-A
+<ul>
+<li class="fragment">comercial andares livres (oito andares)</li>
+</ul></li>
+<li class="fragment">CSL-8-N, CSL-8-A, CSL-16-N e CSL-16-A
+<ul>
+<li class="fragment">comercial salas e lojas (8/16 andares)</li>
+</ul></li>
+<li class="fragment">GI:
+<ul>
+<li class="fragment">Galpão Industrial</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="o-cub" class="slide level2">
+<h2>O CUB</h2>
+<ul>
+<li class="fragment"><p>Projetos-padrão: ver <a href="http://cub.org.br/projetos-padrao">link</a></p></li>
+<li class="fragment"><p>Divulgação mensal por todos os SINDUSCON!</p></li>
+<li class="fragment"><p>O que não está incluso no CUB:</p>
+<ul>
+<li class="fragment">Projetos</li>
+<li class="fragment">Equipamentos, tais como elevadores</li>
+<li class="fragment">Fundações especiais</li>
+<li class="fragment">Etc.</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="orçamentação" class="title-slide slide level1 center">
+<h1>Orçamentação</h1>
+
+</section>
+<section id="preço-de-venda-e-bdi" class="slide level2">
+<h2>Preço de Venda e BDI</h2>
+<ul>
+<li class="fragment">Segundo <span class="citation" data-cites="mattos2019">Mattos (<a href="#/referências" role="doc-biblioref" onclick="">2019, 279</a>)</span>:
+<ul>
+<li class="fragment">Preço de venda de uma obra é igual à soma de três fatores:
+<ul>
+<li class="fragment">Custos</li>
+<li class="fragment">Lucro</li>
+<li class="fragment">Impostos</li>
+</ul></li>
+</ul></li>
+<li class="fragment">Os custos podem ser divididos entre custos diretos e indiretos
+<ul>
+<li class="fragment">Diretos: custos que incidem diretamente sobre o produto (obra), tais como insumos, mão-de-obra e equipamentos;</li>
+<li class="fragment">Indiretos: custos que não estão envolvidos diretamente com o produto (obra)
+<ul>
+<li class="fragment">Ex.: Salários de supervisores, engenheiros, canteiros de obras, administração central, etc.</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="preço-de-venda-e-bdi-1" class="slide level2">
+<h2>Preço de Venda e BDI</h2>
+<ul>
+<li class="fragment">BDI:
+<ul>
+<li class="fragment">trata-se de um multiplicador aplicado sobre o <strong>custo direto</strong> de uma obra para obtenção do seu preço de venda;</li>
+<li class="fragment">Veremos que existem diversas formas para o cálculo do BDI;</li>
+<li class="fragment">Não existe uma forma correta;</li>
+<li class="fragment">Portanto, o importante é entender o que se passa!</li>
+</ul></li>
+</ul>
+</section>
+<section id="cálculo-do-preço-de-venda" class="slide level2">
+<h2>Cálculo do preço de venda</h2>
+<ul>
+<li class="fragment">Exemplo: Em uma obra com custo de R$ 100.000,00 incidem impostos de 8% sobre o faturamento e o construtor almeja uma lucratividade de 12% sobre o faturamento. Calcule o preço de venda da obra!
+<ul>
+<li class="fragment">Solução:
+<ul>
+<li class="fragment">Custo de Construcão: <span class="math inline">\(\text{CC} = \text{R\$ } 100.000,00\)</span></li>
+<li class="fragment">Lucro: <span class="math inline">\(L = \text{CC}\cdot 0,12 = \text{R\$ } 100.000,00 \cdot 0,12 = \text{R\$ } 12.000,00\)</span></li>
+<li class="fragment">Impostos: <span class="math inline">\(I =  \text{CC}\cdot 0,08 = \text{R\$ } 100.000,00 \cdot 0,08 = \text{R\$ } 8.000,00\)</span></li>
+<li class="fragment">Preço de Venda: <span class="math inline">\(\text{PV} = \text{CC} + \text{L} + \text{I} = \text{R\$ } 120.000,00\)</span></li>
+</ul></li>
+<li class="fragment">Problema:
+<ul>
+<li class="fragment">Impostos: <span class="math inline">\(8\% \cdot \text{R\$ } 120.000,00 = \text{R\$ } 9.600\)</span></li>
+<li class="fragment">Lucro: <span class="math inline">\(\text{LO} = \text{R\$ } 120.000,00 - \text{R\$ } 100.000,00 - \text{R\$ } 9.600 = \text{R\$ } 10.400,00\)</span></li>
+<li class="fragment">Lucro passou a ser de apenas <span class="math inline">\(8,67\%\)</span> do faturamento!</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="cálculo-correto-do-preço-de-venda" class="slide level2">
+<h2>Cálculo correto do preço de venda</h2>
+<ul>
+<li class="fragment">O preço de venda deve ser devidamente calculado, em função dos custos, lucros almejados e impostos incidentes, através da equação abaixo:
+<ul>
+<li class="fragment"><span class="math display">\[PV = \frac{\text{CC}}{1-i\%}\]</span>
+<ul>
+<li class="fragment"><span class="math inline">\(i\%\)</span> é uma taxa que engloba impostos e lucro.</li>
+</ul></li>
+</ul></li>
+<li class="fragment">Exemplo:
+<ul>
+<li class="fragment"><span class="math display">\[\text{PV} = \frac{\text{R\$ }100.000,00}{1-(0,12 + 0,08)} = \frac{\text{R\$ }100.000,00}{0,80} = \text{R \$ } 125.000,00\]</span></li>
+<li class="fragment">Impostos: <span class="math inline">\(\text{R\$ } 125.000,00 \cdot 0,08 = \text{R\$ } 10.000,00\)</span></li>
+<li class="fragment">Lucro Operacional: <span class="math inline">\(\text{LO} = \text{PV} - \text{CC} - \text{I} = \text{R\$ } 15.000,00 \;(12\%!)\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="preço-de-venda-e-bdi-2" class="slide level2">
+<h2>Preço de Venda e BDI</h2>
+<ul>
+<li class="fragment"><p><span class="math display">\[\text{PV} = \text{CD}\cdot(1+\text{BDI%})\]</span></p></li>
+<li class="fragment"><p><span class="math inline">\(\text{CD}\)</span> é o custo direto da obra;</p></li>
+<li class="fragment"><p><span class="math inline">\(\text{BDI%}\)</span> é o percentual a ser aplicado sobre o custo da obra para a obtenção do preço de venda</p></li>
+</ul>
+</section>
+<section id="composição-do-bdi" class="slide level2">
+<h2>Composição do BDI</h2>
+<ul>
+<li class="fragment">Assim como não estão inclusos no CUB os custos com aquisição de elevadores, fundações especiais, etc.</li>
+<li class="fragment">Também não estão inclusos no CUB eventuais despesas financeiras, impostos, benefícios (lucro) do construtor, etc.</li>
+<li class="fragment">Os custos extra-CUB, tais como aquisição de elevadores, são custo direto da obra e devem ser somados ao custo básico para a determinação do custo direto da obra</li>
+<li class="fragment">As despesas financeiras, impostos e outros custos indiretos devem integrar o BDI</li>
+</ul>
+</section>
+<section id="fórmula-para-o-preço-de-venda" class="slide level2">
+<h2>Fórmula para o Preço de Venda</h2>
+<ul>
+<li class="fragment"><p>O PV pode ser calculado diretamente conforme a equação abaixo:</p>
+<ul>
+<li class="fragment"><span class="math display">\[\text{PV} = \frac{\text{CD} + \text{CI} + \text{AC} + \text{DF} + \text{IC}}{1-(\text{LO%} + \text{IMP%})}\]</span></li>
+</ul></li>
+<li class="fragment"><p><span class="math inline">\(\text{CI}\)</span> é o custo indireto da obra;</p></li>
+<li class="fragment"><p><span class="math inline">\(\text{AC}\)</span> é uma verba calculada para o pagamento das despesas da administração central da construtora;</p></li>
+<li class="fragment"><p><span class="math inline">\(\text{DF}\)</span> são as despesas financeiras;</p></li>
+<li class="fragment"><p><span class="math inline">\(\text{IC}\)</span> é uma verba que deve ser prevista para as contingências;</p></li>
+<li class="fragment"><p><span class="math inline">\(\text{LO%}\)</span> é um percentual que reflete o lucro operacional da construtora;</p></li>
+<li class="fragment"><p><span class="math inline">\(\text{IMP%}\)</span> é o percentual que reflete todos os impostos incidentes sobre o faturamento (IR não entra!)</p></li>
+</ul>
+</section>
+<section id="fórmula-do-bdi" class="slide level2">
+<h2>Fórmula do BDI</h2>
+<ul>
+<li class="fragment">O BDI pode ser calculado conforme a fórmula abaixo <span class="citation" data-cites="mattos2019">(<a href="#/referências" role="doc-biblioref" onclick="">Mattos 2019, 291</a>)</span>:
+<ul>
+<li class="fragment"><span class="math display">\[\text{BDI%} = \frac{(1+\text{CI})\cdot(1 + \text{AC} + \text{DF} + \text{IC})}{1-(\text{LO%} + \text{IMP%})} - 1\]</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="impostos" class="slide level2">
+<h2>Impostos</h2>
+<ul>
+<li class="fragment"><p>Muitos impostos incidem sobre a compra dos materiais (ICMS, ISS) e mão-de-obra (INSS, FGTS) e já estão orçados como custos diretos</p></li>
+<li class="fragment"><p>Os impostos que incidem sobre o faturamento também devem ser computados:</p>
+<ul>
+<li class="fragment">PIS (0,65% sobre o faturamento)</li>
+<li class="fragment">COFINS (3% sobre o faturamento)</li>
+<li class="fragment">ISSQN (depende do município e da atividade)</li>
+<li class="fragment">IRPJ (depende do regime)</li>
+<li class="fragment">CSLL (depende do regime)</li>
+</ul></li>
+<li class="fragment"><p>No entanto, IRPJ e CSLL são impostos diretos, que incidem sobre a empresa, e não devem ser repassados ao contratante!</p></li>
+</ul>
+</section>
+<section id="irpj-e-csll" class="slide level2">
+<h2>IRPJ e CSLL</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">IRPJ no Regime de Lucro Presumido:
+<ul>
+<li class="fragment">Alíquota de 15%</li>
+<li class="fragment">Base de cálculo: 8% da receita bruta</li>
+<li class="fragment">Ou seja, 1,2% do faturamento</li>
+</ul></li>
+<li class="fragment">CSLL no Regime de Lucro Presumido:
+<ul>
+<li class="fragment">Alíquota: 9%</li>
+<li class="fragment">Base de cálculo: 12% da receita bruta</li>
+<li class="fragment">Ou seja, 1,08% sobre o faturamento</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li class="fragment">IRPJ no Regime de Lucro Real:
+<ul>
+<li class="fragment">Alíquotas: 15% (até R$ 20.000) e 25% (o que exceder)</li>
+<li class="fragment">Base de cálculo: Lucro real</li>
+</ul></li>
+<li class="fragment">CSLL no Regime de Lucro Real:
+<ul>
+<li class="fragment">Alíquota: 9%</li>
+<li class="fragment">Base de cálculo: Lucro real até R$ 20.000,00</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="lucro-líquido" class="slide level2">
+<h2>Lucro Líquido</h2>
+<ul>
+<li class="fragment"><p>Lucro líquido da construtora depende do regime tributário.</p></li>
+<li class="fragment"><p>Exemplo:</p>
+<ul>
+<li class="fragment">Regime de Lucro Real</li>
+<li class="fragment">Lucro operacional: R$ 100.000,00</li>
+<li class="fragment">IRPJ: 25%</li>
+<li class="fragment">CSLL: 9%</li>
+</ul></li>
+<li class="fragment"><p><span class="math inline">\(\text{LL} = \text{LO}\cdot (1-\text{IRPJ} - \text{CSLL}) = \text{LO}\cdot (1 - 0,25 - 0,09) = 0,66\cdot \text{LO}\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(\text{LL} = 100.000 \cdot 0,66 = \text{R\$ } 66.000,00\)</span></p></li>
+</ul>
+</section>
+<section id="exercício" class="slide level2">
+<h2>Exercício</h2>
+<ul>
+<li class="fragment">Uma obra tem custo direto orçado de R$ 2.582.000,00. Uma construtora estima que terá que arcar com um custo indireto de R$ 250.560,00 para conseguir executar esta obra. Além disso, ela estima que, para remunerar o seu escritório central, ela precisa de algo em torno de aproximadamente 4% do custo total da obra. Além disto, as despesas financeiras devem ser da ordem de 1,5%. Os impostos que incidem sobre o faturamento (PIS, COFINS e ISSQN) somam 6,65% e a lucrativadade almejada é de 8%, antes do IRPJ e CSLL! Calcule o valor do BDI!</li>
+</ul>
+</section>
+<section id="fórmula-do-bdi-para-obras-públicas" class="slide level2">
+<h2>Fórmula do BDI para obras públicas</h2>
+<ul>
+<li class="fragment"><p>Para o TCU, nas obras públicas o lucro deve incidir sobre o custo da obra, e não sobre o faturamento!</p></li>
+<li class="fragment"><p><span class="math display">\[\text{BDI} = \frac{(1 + (\text{AC} + S + R + G))(1 + DF)(1+L)}{(1-I)}\]</span></p>
+<ul>
+<li class="fragment"><span class="math inline">\(S\)</span> é uma taxa representativa dos seguros;</li>
+<li class="fragment"><span class="math inline">\(R\)</span> é uma taxa que corresponde aos riscos;</li>
+<li class="fragment"><span class="math inline">\(G\)</span> pe uma taxa que representa ônus das garantias exigidas no edital;</li>
+</ul></li>
+<li class="fragment"><p>Acórdão 2.622/2013: estabelece parâmetros referenciais para diversos tipos de obras públicas.</p></li>
+</ul>
+</section>
+<section id="desoneração-da-folha-de-pagamento" class="slide level2">
+<h2>Desoneração da folha de pagamento</h2>
+<ul>
+<li class="fragment"><p>Com a desoneração da folha de pagamento, em 2013, o INSS (20%) deixou de ser recolhido sobre os salários e criou-se a Contribuição Previdenciária sobre a Receira Bruta (CPRB), com alíquota de 4,5% sobre o faturamento</p></li>
+<li class="fragment"><p>Ou seja, diminuem os custos diretos da obra.</p>
+<ul>
+<li class="fragment">Base de preços desoneradas:
+<ul>
+<li class="fragment">Por exemplo: SINAPI desonerado</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><p>Porém o BDI aumenta, pois a CPRB passa a fazer parte do BDI!</p></li>
+</ul>
+</section>
+<section id="reforma-tributária" class="slide level2">
+<h2>Reforma Tributária</h2>
+
+<img data-src="./img/Reforma_Tributaria.png" class="r-stretch quarto-figure-center"><p class="caption">Impostos a serem extintos pela reforma tributária</p></section>
+<section id="reforma-tributária-1" class="slide level2">
+<h2>Reforma Tributária</h2>
+<ul>
+<li class="fragment">Com a reforma tributária, os impostos passarão a ser do tipo <em>valor agregado</em>.
+<ul>
+<li class="fragment">Grosso modo: eles incidirão sobre os custos indiretos e sobre o lucro do construtor (valor agregado), mas não sobre os custos diretos</li>
+<li class="fragment">O cálculo do BDI deverá mudar!</li>
+</ul></li>
+<li class="fragment">Ver <a href="https://www12.senado.leg.br/noticias/materias/2023/12/21/reforma-tributaria-promulgada-principais-mudancas-dependem-de-novas-leis">link</a></li>
+</ul>
+</section>
+<section id="conclusão" class="slide level2">
+<h2>Conclusão</h2>
+<ul>
+<li class="fragment"><p>Nas perícias de custo, é importante atentar para o regime tributário da empresa e para os impostos locais (ISSQN) incidentes sobre a(s) atividade(s) no cálculo do BDI</p></li>
+<li class="fragment"><p>O BDI varia de uma obra para a outra. Segundo <span class="citation" data-cites="mattos2019">Mattos (<a href="#/referências" role="doc-biblioref" onclick="">2019, 294</a>)</span>:</p>
+<ul>
+<li class="fragment">Obras grandes, longas e simples tendem a possuir um BDI reduzido, enquanto obras complexas, rápidas e pequenas trabalham com BDI mais elevado!</li>
+</ul></li>
+</ul>
+</section>
+<section id="referências" class="slide level2 smaller scrollable">
+<h2>Referências</h2>
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-mattos2019" class="csl-entry" role="listitem">
+Mattos, Aldo Dórea. 2019. <em>Como preparar orçamento de obras</em>. 3.ª ed. São Paulo, SP: Oficina de Textos.
+</div>
+</div>
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="04_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="04_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="04_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="04_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="04_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="04_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="04_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="04_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="04_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="04_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+       // Parallax background image
+       parallaxBackgroundImage: './img/Fundo_Slide_Comum.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+        // Parallax background size
+        parallaxBackgroundSize: 'cover', // CSS syntax, e.g. "2100px 900px"
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copiada");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copiada");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

@@ -1,0 +1,375 @@
+---
+title: "Perícias e Auditoria em Edificações"
+subtitle: "Introdução"
+author: "Luiz Fernando Palin Droubi"
+date: last-modified
+date-format: long
+institute: Faculdade EDUFOR
+bibliography: referencias.bib
+title-slide-attributes:
+  #data-background-image: img/Fundo_Slide_Titulo.png
+  data-background-size: contain
+  #data-background-opacity: "0.5"
+# format: 
+#   pptx:
+#     reference-doc: TEMPLATE_EDUFOR.pptx
+lang: pt
+format:
+  revealjs:
+    background-image: "./img/Fundo_Slide_Comum.jpg"
+    parallax-background-size: cover 
+    width: 1280
+    height: 720
+    # margin-top: 20%
+    theme: [default, style.scss]
+    # logo: img/logo.png
+    # theme: beige
+    # smaller: true
+    slide-number: true
+    scrollable: true
+    incremental: true
+    transition: slide
+    background-transition: fade
+fontsize: 1.8em
+---
+
+# Introdução {background-image="img/Fundo_Slide_Titulo.png"}
+
+## Introdução
+
+- **Processo Judicial**: instrumento utilizado para analisar e resolver 
+conflitos, onde uma das partes busca o reconhecimento de um direito;
+
+- Quando o julgamento depende de uma prova técnica ou científica específica, o 
+juiz nomeia um auxiliar da justiça - o perito, ou "*expert*" - para apoiá-lo.
+
+- O perito, escolhido entre profissionais legalmente habilitados, tem a 
+responsabilidade de conduzir a perícia no prazo determinado, utilizando toda sua 
+expertise. 
+
+## Ética profissional
+
+- [Lei 5.194/1966](https://www.planalto.gov.br/ccivil_03/Leis/L5194.htm):
+  - Regula o exercício das profissões de Engenheiro, Arquiteto e 
+  Engenheiro-Agrônomo, e dá outras providências.
+
+- [Código de ética do CONFEA](https://normativos.confea.org.br/Ementas/Visualizar?id=253):
+  - Atualizado pela [Resolução nº 1.002, de 26 de novembro de 2002](https://normativos.confea.org.br/Ementas/Visualizar?id=542).
+  
+## Estrutura do Curso
+
+- Sexta-Feira:
+  - Introdução:
+    - Perícias de Engenharia (conceituação, objetivo)
+    - Engenharia Legal
+    - Tipos de Perícias de Engenharia
+    - Laudo
+    - Quesitos
+    - Normas Técnicas
+    - Modelos de Petições e Laudos
+  - Engenharia Diagnóstica
+
+
+
+## Estrutura do Curso
+
+- Sábado:
+  - Perícias de Valor em Edificações
+    - Método Evolutivo
+    - Método da Quantificação do Custo
+      - Tipos de Orçamento
+      - Custo Unitário Básico
+      - Área Equivalente
+      - Custos extra-CUB
+      - NBR 12.721/2006
+      - Depreciação
+      - Fator de Comercialização
+      
+  - Perícias de Custo
+
+
+## Estrutura do Curso
+
+- Domingo:
+  - Avaliação
+    - Elaboração de uma perícia completa, passando por:
+      - Diagnóstico do problema
+      - Solução técnica para reparo do problema
+      - Quantificação do Custo dos reparos
+      - Determinação do Valor de Mercado pelo Método Evolutivo
+      
+  
+## Perícias de Engenharia
+
+- Perícias estão previstas como meios de prova (Código Civil e Código de 
+Processo Civil)
+
+- São admitidas sempre que a comprovação do fato depender do conhecimento 
+técnico ou científico (Código de Processo Civil, art. 145)
+
+- Perícia judicial: "é toda verificação de fato ou fixação de valor, realizada
+em juízo e expressa em laudo, por pessoa compromissada no processo."
+
+## Objetivo da Perícia Judicial
+
+- O objetivo da perícia judicial é a obtenção de juízo técnico especializado 
+sobre questões de fato, de interesse para decisão de causa, destacando-se,
+em particular, um tipo de perícia denominada *avaliação*, que tem por objetivo
+a apuração do valor das coisas, direitos e obrigações, determinada pelo juiz,
+de ofício ou a requerimento das partes [@meirelles, 385].
+
+## Engenharia Legal
+
+![Engenharia Legal](./img/Engenharia_Legal.png)
+  
+## Espécies de Perícias de Engenharia
+
+- A perícia judicial apresenta-se sob três espécies bem distintas [@meirelles, p. 384]:
+  - Exame
+  - Vistoria
+  - Avaliação
+
+## Espécies de Perícias de Engenharia
+
+![Espécies de Perícias. Fonte: @NBR13752, p. vi](./img/Especies_Pericia.png)
+
+## Exame
+
+- @meirelles [p.390-391]:
+  - *Exame judicial* é espécie do gênero *perícia judicial* e se caracteriza 
+  como inspeção feita em pessoas, animais ou bens móveis, para quaisquer
+  verificações de interesse da Justiça, elaborada por perito nomeado pelo juiz
+  para a verificação de fatos ou circunstâncias que interessem à solução da 
+  causa.
+  
+- @NBR13752 [p. 10]:
+  - Os requisitos para o exame dependem do objeto e de seu objetivo, sendo 
+  necessária a adequação em relação à especificidade de cada caso.
+  
+- @meirelles [p.391]:
+  - O Código processual, embora dando sentido específico a *exame* no art. 420,
+  onde o distingue da *vistoria* e da *avaliação*, empresta-lhe o significado
+  genérico de *perícia judicial* nos arts. 335, 846 e 851, numa gritante falta
+  técnica. Deste modo, torna-se difícil conceituar o *exame* em face da norma
+  adjetiva, que ora especifica e ora restringe, ora generaliza e alarga o seu
+  significado, confundindo-o com as demais espécies.
+  
+## Vistoria
+
+- @NBR13752 [p. 10]:
+  - As vistorias são classificadas como de constatação, de análise comparativa
+  de conformidade e de análise de causalidade, e os requisitos específicos para
+  cada uma delas são apresentados em 7.3.3.1, 7.3.3.3 e 7.3.3.4. Adicionalmente
+  são apresentados requisitos específicos para os seguintes casos particulares
+  das modalidades de vistorias de constatação e de análise comparativa de
+  conformidade:
+    a. vistoria cautelar de vizinhança, conform 7.3.3.2
+    b. vistoria de obras não concluídas, conforme 7.3.3.6
+    c. vistoria de entrega e recebimento de obra, conforme 7.3.3.7
+    
+## Vistoria Cautelar de Vizinhança
+
+- @NBR13752 [p. 11]:
+  - A vistoria cautelar de vizinhança é uma modalidade de vistoria de constatação,
+  que objetiva **perpetuar a memória**, visando:
+    a. identificar anomalias, manifestações patológicas e falhas;
+    b. caracterizar tipo, estado de conservação, padrão construtivo, idade ou
+    outras características importantes em edificações e benfeitorias 
+    predeterminadas, na área de influência da obra.
+
+## Vistoria de análise comparativa de conformidade
+
+- @NBR13752 [p. 12]:
+  - Os requisitos que devem ser atendidos na vistoria de análise comparativa de
+conformidade estão relacionados à comparação do objeto da perícia com os padrões
+especificados.
+  - Alguns dos requisitos utilizados estão vinculados, entre outros, aos 
+  seguintes documentos:
+    a. Projeto e memoriais descritivos;
+    b. legislações pertinentes;
+    c. normas técnicas;
+    d. prospectos e informes publicitários;
+    e. manuais de uso, operação e manutenção (áreas comuns e privativas);
+    f. dados e catálogos técnicos de fabricantes.
+    
+## Vistoria de análise de causalidade
+
+- @NBR13752 [p. 13]:
+  - A vistoria de análise de causalidade, ou de apuração do nexo causal, deve
+  constatar fatos e situações que permitam a análise e verificação de possíveis
+  nexos causais em relação ao objeto da perícia.
+  
+## Vistoria de análise de causalidade
+
+- @NBR13752 [p. 14]:
+  - Os requisitos que podem subsidiar a metodologia investigativa escolhida no
+  desenvolvimento da perícia estão relacionados a:
+    a. coleta de informações e documentos como propjetos; contratos e aditivos;
+    memoriais descritivos; cronogramas; orçamentos, dados e catálogos de 
+    fabricantes de produtos; materiais, componentes, sistemas; equipamentos;
+    fotos; vídeos; laudos anteriores;
+    b. normas técnicas aplicáveis e legislações vigentes;
+    c. realização de prospecções;
+    d. realização de levantamentos métricos ou topográficos;
+    e. realização de testes e ensaios;
+    f. outros fatores que subsidiem a metodologia investigativa adotada.
+    
+    
+## Vistoria de análise de causalidade
+
+- @NBR13752 [p. 14]:
+  - as etapas a serem observadas para desenvolvimento e fundamentação da vistoria
+  de análise de causalidade, quando pertinentes, são:
+    a. anamnese;
+    b. coleta de dados, documentos e identificação de requisitos a serem 
+    cumpridos para o desenvolvimento dos trabalhos;
+    c. análise de documentos;
+    d. realização de vistorias de constatação e de análise comparativa de 
+    conformidade nos termos descritos em 7.3.3.1 e 7.3.3.3;
+    e. caracterização e descrição técnica detalhada dos fatos, ocorrências,
+    anomalias, falhas, manifestações patológicas e demais não conformidades
+    constatadas, com a indicação de suas características físicas e dimensionais,
+    localização e abrangência.
+    
+## Vistoria de análise de causalidade
+
+- @NBR13752 [p. 14]:
+  - as etapas a serem observadas para desenvolvimento e fundamentação da vistoria
+  de análise de causalidade, quando pertinentes, são:
+    f. desenvolvimento de metologia investigativa em atendimento aos requisitos
+    dos trabalhos para a análise do nexo causal, com descrição fundamentada dos
+    mecanismos de ação que expliquem as ocorrências caracterizadas, suas origens
+     e agentes causadores;
+     g. classificação das ocorrências ou fatos de forma fundamentada e em
+     atendimento à metodologia investigativa adotada no desenvolvimento da
+     perícia.
+     
+## Perícias possessória e dominial
+
+- A perícias envolvendo questões possessórias e dominiais tem como objetivo
+identificar a descrever a s características físicas e dimensionais do terreno
+(gleba, lote e áreas públicas) e analisar requisitos de propriedade, domínio,
+posse ou ocupação em situações fáticas com o propósito de instruir tecnicamente
+procedimentos relativos a questões possessórias (usucapião, reintegração e 
+manutenção de posse, entre outras) e dominiais (retificação de área, unificação
+de imóveis, apuração de remanescentes, averbação de abertura de ruas, inserção
+de dimensões, demarcação, entre outras).
+
+## Espécies de Perícias mais comuns {.smaller}
+
+- As perícias mais comuns em edificações são:
+
+  - Períciais Técnicas (Engenharia Diagnóstica):
+    - Vistorias e elaboração de laudos para análise das causas e soluções para 
+    as anomalis, falhas e manifestações patológicas.
+
+  - Perícias de Valor (Engenharia de Avaliações):
+    - Após uma eventual vistoria do imóvel avaliando, ou elaboração de projeto
+    hipotético, elaboração de laudo de valor do bem;
+    - É natural que muitas perícias acabem numa análise de valor!
+  
+  - Perícias de Custos (Engenharia de Custos):
+    - Análise de custos previstos vs. realizados
+    - Análise de pertinência de aditivos de obras
+    - Análise de desequilíbrio econômico-financeiro
+  
+  - Outras perícias:
+    - Ações de Vizinhança    
+    
+## Perito e assistentes técnicos
+
+- Perito são pessoas chamadas a expor ao juiz não só as observações de seus 
+sentidos e suas impressões pessoais sobre os fatos observados, senão também as
+induções que se devem tirar objetivamente dos fatos.
+
+- O perito é um cientista ou um técnico a quem o juiz delega a função de
+raciocinar por ele, ou de proceder a exames que, por lhe faltarem conhecimentos
+especializados, não lhe seria possível realizar com êxito.
+
+- O perito é sempre de nomeação do juiz!
+
+- Cabe a cada uma das partes indicar o seu assitente técnico
+
+- O perito deverá apresentar o laudo no prazo fixado pelo juiz.
+    
+## Laudo
+
+> Laudo é o resultado da perícia, expresso em conclusões escritas, fundamentadas
+e assinadas pelo perito [@meirelles, p. 388].
+
+. . . 
+
+- As virtudes do laudo resumem-se em clareza, objetividade e fundamentação:
+  - clareza na exposição dos fatos periciados;
+  - objetividade na metodologia de pesquisa;
+  - fundamentaçãopara abonar as conclusões e respostas aos quesitos
+  
+- O perito deverá ater-se unicamente às questões técnicas, abstendo-se de 
+indignações ou sustentações jurídicas, que não são seu ofício.
+
+- Os assistentes oferecerão seus pareceres no prazo comum de 10 dias após a 
+intimação às partes da apresentação do laudo do perito
+
+- O que se requer do laudo é o aclaramento das questões técnicas submetidas à
+apreciação pericial!
+
+## Quesitos
+
+- @meirelles [p. 385]:
+  - Entende-se por _quesito_ toda indagação escrita e articulada, feita ao 
+  perito, visando aos pontos a serem esclarecidos no laudo.
+
+- No laudo devem ser respondidos todos os quesitos deferidos pelo juiz,
+mencionando-se os fatos e circunstâncias em que se baseiam as conclusões e
+respostas às indagações das partes, do Ministério Público ou do magistrado,
+podendo ser instruído com plantas, desenhos, *croquis*, fotografias e quaisquer
+outros elementos elucidativos da perícia
+
+
+## Principais Normas Técnicas
+
+- NBR 13.752/2024: Perícias de Engenharia na Construção Civil
+  - norma "mãe" de perícias!
+
+- NBR 17.170/2022: norma de garantias
+
+- NBR 15.575: norma de desempenho, dividida em 6 partes:
+  - NBR 15.575-1/2024: Requisitos Gerais
+  - NBR 15.575-2/2013: Requisitos para sistemas estruturais
+  - NBR 15.575-3/2021: Requisitos para sistemas de pisos
+  - NBR 15.575-4/2021: Requisitos para SVVIE (vedações)
+  - NBR 15.575-5/2021: Requisitos para os sistemas de coberturas
+  - NBR 15.575-6/2021: Requisitos para os sistemas hidrossanitários
+  - Disponível gratuitamente em [normadesempenho.com.br](https://normadedesempenho.com.br/)
+
+  
+## Principais Normas Técnicas
+
+- NBR 14.653: Perícias de Valor, dividida em 7 partes:
+  - NBR 14.653-1/2019: Procedimentos Gerais
+  - NBR 14.653-2/2011: Imóveis Urbanos
+  - NBR 14.653-3/2019: Imóveis Rurais
+  - NBR 14.653-4/2002: Empreendimentos
+  - NBR 14.653-5/2006: Máquinas, equipamentos, instalações e bens industriais em
+  geral
+  - NBR 14.653-6/2008: Recursos Naturais e Ambientais
+  - NBR 14.653-7/2009: Patrimônio Histórico
+  - NBR 14.653-8: Avaliação em massa para fins tributários (em breve)
+  
+## Principais Normas Técnicas
+
+- NBR 14.037/2024: Diretrizes para elaboração de manuais de uso, operação e
+manutenção das edificações – Requisitos para elaboração e apresentação dos 
+conteúdos
+
+- NBR 5674/2024 - Manutenção de edificações - Requisitos para o sistema de gestão
+de manutenção
+
+- NBR 16.280/2024 - Reforma em edificações - Sistema de gestão de reformas - Requisitos
+
+## Principais Normas Técnicas
+
+- NBR 12.271/2006: Avaliação de custos unitários de construção para incorporação 
+imobiliária e outras disposições para condomínios edifícios - Procedimento
+
+## Referências

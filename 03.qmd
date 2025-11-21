@@ -1,0 +1,512 @@
+---
+title: "Perícias e Auditoria em Edificações"
+subtitle: "Engenharia de Avaliações"
+author: "Luiz Fernando Palin Droubi"
+date: last-modified
+date-format: long
+institute: Faculdade EDUFOR
+bibliography: referencias.bib
+title-slide-attributes:
+  #data-background-image: img/Fundo_Slide_Titulo.png
+  data-background-size: contain
+  #data-background-opacity: "0.5"
+# format: 
+#   pptx:
+#     reference-doc: TEMPLATE_EDUFOR.pptx
+lang: pt
+format:
+  revealjs:
+    background-image: "./img/Fundo_Slide_Comum.jpg"
+    parallax-background-size: cover 
+    width: 1280
+    height: 720
+    # margin-top: 20%
+    theme: [default, style.scss]
+    # logo: img/logo.png
+    # theme: beige
+    # smaller: true
+    slide-number: true
+    scrollable: true
+    incremental: true
+    transition: slide
+    background-transition: fade
+fontsize: 1.8em
+---
+
+# Perícias de Valor {background-image="img/Fundo_Slide_Titulo.png"}
+
+## Introdução
+
+- Avaliação Judicial [@meirelles, 392]:
+  - Destaca-se a avaliação de imóveis, "obrigatória nas desapropriações e usual
+  nas ações reparatórias de danos, renovatórias e revisionais de aluguel e nas
+  vendas de bens realizadas em juízo."
+  
+
+
+## Introdução
+
+- Nas perícias de valor é comum que utilizemos:
+  - O Método Comparativo Direto de Dados de Mercado (MCDDM)
+    - Tratamento por fatores
+    - Tratamento científico
+  - O Método Involutivo
+  - O Método da Renda
+  - O Método Evolutivo
+  - O Método da Remuneração do Capital (Aluguéis)
+  
+- O Método da Quantificação do Custo também é importante, sendo utilizado em
+conjunto com outros métodos, como o Evolutivo ou Involutivo
+  
+# Método Evolutivo {background-image="img/Fundo_Slide_Titulo.png"}
+
+## Método Evolutivo
+
+- Trata-se de calcular o valor de um imóvel através da soma do valor de mercado
+do terreno e dos custos de construção, com posterior aplicação de um fator de 
+comercialização
+
+  - $$\text{VI} = (\text{VT} + \text{CB})\cdot \text{FC}$$
+
+## Fundamentação segundo a NBR 14.653-2
+
+![](./img/Grau_Fundamentacao_Evolutivo.png)
+
+# Método da Quantificação do Custo {background-image="img/Fundo_Slide_Titulo.png"}
+
+## O Método da Quantificação do Custo
+
+- Após uma vistoria inicial, cujo objetivo principal é
+  - Determinar a tipologia da edificação;
+  - Determinar o padrão construtivo da edificação;
+  - Determinar o estado de conservação e/ou a idade aparente da edificação, afim de determinar sua depreciação
+  - Observar eventuais vícios construtivos que possam/devam ser reparados
+  
+- O avaliador deverá determinar o custo unitário básico (CUB) da
+edificação
+
+- Também deverá observar eventuais custos extra-CUB 
+
+## Fundamentação do Método da Quantificação do Custo
+
+![](./img/Grau_Fundamentacao_Custo.png)
+
+## Grau de Precisão de um Orçamento
+
+- Estimativa de Custo
+  - avaliação expedita com base em custos históricos e comparação com projetos
+  similares;
+  - Idéia da grandeza
+  
+- Orçamento preliminar
+  - mais detalhado do que a estimativa de custo;
+  - pressupõe o levantamento de quantidades e pesquisa de preços dos principais
+  insumos e serviços;
+  - seu grau de incerteza é menor.
+  
+- Orçamento analítico ou detalhado
+  - elaborado com composição de custos e extensa pesquisa de preços de insumos;
+  - procura chegar a um valor bem próximo do custo real;
+  - apresenta reduzida margem de incerteza.
+  
+## Tipos de orçamento
+
+| Tipo                | Margem de Erro           |
+|:--------------------|:-------------------------|
+| Avaliações          | De $\pm 30$ a $\pm 20\%$ |
+| Estimativas         | De $\pm 20$ a $\pm 15\%$ |
+| Orçamento Expedito  | De $\pm 15$ a $\pm 10\%$ |
+| Orçamento Detalhado | De $\pm 10$ a $\pm 5\%$  |
+| Orçamento Analítico | De $\pm 5$ a $\pm 1\%$   |
+Table: Diferenças e características das avaliações, estimativas e orçamentos.
+
+## Classes de Estimativa (AACE)
+
+![Precisão de um orçamento segundo as classes da AACE](./img/Classes_Estimativa_AACE.png)
+
+## Orçamento paramétrico
+
+- Trata-se de uma estimativa de custo, baseado na composição da área construída.
+
+- Área equivalente:
+  - "área virtual cujo custo de construção é equivalente ao custo da respectiva 
+  área real, utilizada quando este custo é diferente do custo unitário básico da
+  construção, adotado como referência. Pode ser, conforme o caso, maior ou menor
+  que a área real correspondente."
+  
+## Área equivalente
+
+![](img/Coeficientes_NBR_12721.png)
+
+
+## Área equivalente {.smaller}
+
+| Tipo da Área              | Coef. |
+|:--------------------------|------:|
+| 1º Subsolo                | 0,70  |
+| 2º Subsolo                | 0,80  |
+| 3º Subsolo                | 0,90  |
+| 4º Subsolo                | 1,00  |
+| Térreo Externo sobre laje | 0,60  |
+| Térreo Externo sobre solo | 0,25  |
+| Térreo Externo coberto    | 0,70  |
+| Térreo Interno            | 1,10  |
+| **Tipo**                  | 1,00  |
+| Cobertura Interna         | 1,00  |
+| Cobertura Externa         | 0,60  |
+| Barrilete/ Casas de Máq.  | 0,70  |
+
+## Exercicio
+
+- Uma residência possui área interna de 80 $m^2$, além de garagem e área de
+serviço (área externa coberta) que somam 45 $m^2$. Nos fundos, a residência tem
+uma área *gourmet* de 100 $m^2$ e jardins que somam 135 $m^2$. Calcule a área
+equivalente!
+
+## Solução
+
+- Coeficientes:
+  - Área interna: 1,0
+  - Garagem e área de serviço: 0,70
+  - Área *gourmet*: 0,70
+  - Jardins: 0,25
+  
+- Área equivalente:
+  - $S = A_p + \sum_{i = 1}^n (A_{q_i} \cdot P_i)$
+  - $S = 80 + 0,70\cdot 45 + 0,70 \cdot 100 + 0,25\cdot 135$
+  - $S = 80 + 31,50 + 70 + 33,75$
+  - $S = 215,25\,m^2$ 
+  
+## Cálculo do Custo de Construção Total
+
+- O Cálculo do Custo de Construção depende não apenas do padrão construtivo e
+da área equivalente total, mas também dos custos extra-CUB e dos benefícios e
+despesas indiretas (BDI).
+
+- Custos extra-CUB:
+  - Por exemplo: projetos, muro de divisa, muro de arrimo, piscina, sauna,
+  elevadores, etc.
+  
+- BDI:
+  - Lucro e despesas indiretas do construtor.
+  - Varia conforme a complexidade, volume, risco e duração da obra
+  - Também pode variar de empresa para empresa
+  - Nas residências devem ser em torno de 12 a 18% do custo direto da obra
+  (taxa de administração)
+  
+## Conceito de Custo de Reprodução de benfeitoria
+
+- Segundo a @NBR1465301 [p. 3], o custo de reprodução é:
+  - Custo necessário para reproduzir um bem idêntico, com a consideração dos
+  insumos pertinentes, sem considerar eventual depreciação.
+  
+## Exercício
+
+- Considerando, para a residência com 215,25 $m^2$ de área equivalente, que seu
+padrão de construção seja normal, com CUB igual a R\$ 3.260,72 $/m^2$ na região;
+  - Que os projetos somam aproximadamente 4% do custo direto da obra;
+  - Que para a construção da casa foi necessária a construção de um muro de 
+  arrimo com custo de R\$ 50.000,00;
+  - Que o BDI (taxa de administração) para a construção da obra seja de 18%;
+
+-  Calcular o custo de reprodução da residência
+
+## Solução
+
+- Custo Direto:
+  - $\text{CD} = \text{CUB}\cdot S + 50.000,00 = 3.260,72 \cdot 215,25 + 50.000,00$
+  - $\text{CD} = 701.870 + 50.000,00$
+  - $\text{CD} = \text{R\$ } 751.870,00$
+
+- Projetos:
+  - $\text{P} = 751.870,00 \cdot 4\% \approx \text{R\$ } 30.000,00$
+  
+- CUSTO TOTAL DE CONSTRUÇÃO:
+  - $\text{CC} = (\text{CD} + \text{P})\cdot (1 + \text{BDI})$
+  - $\text{CC} = (751.870 + 30.000)\cdot(1 + 18\%)$
+  - $\text{CC} \approx \text{R\$ } 922.600,00$
+
+## Cálculo do Custo Unitário de Construção (NBR 14.653-2)
+
+- $$C = \left( \text{CUB} + \frac{\text{OE} + \text{OI} + (\text{OF}_e - \text{OF}_d)}{S} \right )(1+A)(1+F)(1+L)$$
+
+  - $C$ é o custo unitário de construção por $m^2$ de área equivalente
+  - $\text{CUB}$ é o custo unitário básico
+  - $\text{OE}$ é o orçamento de elevadores
+  - $\text{OI}$ é o orçamento de instalações especiais
+  - $\text{OF}_e$ é o orçamento de fundações especiais
+  - $\text{OF}_d$ é o orçamento das fundações diretas
+  - $A$ é a taxa de administração da obra
+  - $F$ é o percentual relativo às despesas financeiras
+  - $L$ é o percentual correspondente ao lucro ou remuneração da construtora
+
+# Depreciação {background-image="img/Fundo_Slide_Titulo.png"}
+
+## Conceito de Custo de Reedição de benfeitoria
+
+- Segundo a @NBR1465301 [p. 3], o custo de **reedição** de uma benfeitoria é:
+  - custo de reprodução, descontada a depreciação do bem, tendo em vista o 
+  estado em que se encontra
+
+## Depreciação: conceitos gerais
+
+- Vida útil (VU) de um bem: período que docorre entre a data de conclusão da 
+fabricação de um bem e o momento em que este bem torna-se obsoleto, devido aos
+crescentes custos de manutenção.
+
+- Idade real ($I_R$) de um bem: período decorrido entre a data em que o bem foi 
+concluído e a data da avaliação
+
+- Vida remanescente: período restante de vida de um bem, entre a data de 
+avaliação e o fim de sua vida útil
+
+- Valor residual ($V_r$): é o valor da demolição ou de reaproveitamento de parte 
+dos materiais no fim da vida útil do bem
+
+- Valor depreciável ($V_d$): é a diferença entre o valor total e o valor 
+residual de um bem
+
+- Idade aparente ($I_A$): utilizada apenas no método do valor decrescente, por 
+conta da subjetividade. É a idade atribuída ao bem pelo avaliador durante a 
+vistoria.
+
+- Coeficiente de Depreciação ($K_d$): coeficiente calculado em função da vida
+útil, do valor residual, da idade e, eventualmente, do estado de conservação do
+bem
+
+## Métodos de Depreciação
+
+- Métodos mais simples, quando não é possível determinar o estado de conservação:
+  - Depreciação Linear
+  - Valor Decrescente
+  
+- Método mais preciso:
+  - Ross-Heidecke
+  
+## Método da Linha Reta
+
+- Ou pelo método da linha reta:
+  - $K_d = P_R + PD \cdot \frac{VU-I_E}{VU}$
+  - $P_R$: Parcela Residual (%)
+  - $P_D$: Parcela Depreciável (%)
+  - $I_E$: Idade da Edificação
+  - $VU$: Vida útil
+  
+- Exemplo:
+  - Residência com vida útil de 50 anos e valor residual de 15%:
+    - Aos 20 anos de idade: $K_d = 0,15 + 0,85\cdot [(50 - 20)/50] = 0,66$
+    - Aos 40 anos de idade: $K_d = 0,15 + 0,85\cdot [(50 - 40)/50] = 0,32$
+    - Aos 50 anos de idade: $K_d = 0,15$
+
+## Método do Valor Decrescente
+
+- Também é usual efetuar a depreciação pelo método do valor descrescente, que 
+deprecia o imóvel a uma taxa constante:
+  - $K_d= (1-r)^{I_A}$
+    - $r$ é a razão da Depreciação ($r = 1/V_u$)
+    - $I_A$ é a idade aparente
+    
+- Exemplo:
+  - Residência com vida útil de 50 anos e valor residual de 15%:
+    - Aos 20 anos de idade: $K_d = [1-(1/50)]^{20} = 0,66$
+    - Aos 40 anos de idade: $K_d = [1-(1/50)]^{40} = 0,45$
+    - Aos 50 anos de idade: $K_d = [1-(1/50)]^{50} = 0,36$
+    
+- Cuidado: com estes parâmetros não se chega ao valor residual do bem ao fim da
+vida útil
+    
+## Método do Valor Decrescente
+
+
+| TIPO                                            | Vida útil | Razão    (%) | Valor Residual |
+|-------------------------------------------------|-----------|--------------|----------------|
+| Barracos                                        | 25        | 4,0          | 10%            |
+| Residência Proletário Rústico a médio comercial | 67        | 1,5          | 15%            |
+| Residências médio superior a luxo               | 50        | 2,0          | 15%            |
+| Apartamentos e Escritórios                      | 40        | 2,5          | 10%            |
+| Armazéns e Indústrias                           | 67        | 1,5          | 20%            |
+| Construções de Madeira                          | 25        | 4,0          | 20%            |
+
+: Razões a considerar no método do valor decrescente
+
+## Método do Valor Decrescente
+
+- Segundo @fleischer [p. 80]:
+
+  - $$r = 1 - \left( \frac{V_r}{V_0} \right)^{(1/V_u)}$$
+
+- Exemplo: Residência médio superior a luxo
+  - $V_u = 50 \text{ anos}$; $V_0 = 800.000,00$; $V_r = 120.000,00$
+  - $r = 1 - \left (\frac{120.000}{800.000}\right)^{(1/50)} = 3,72\%$
+  - Após:
+    - 20 anos: $V = (1-0,0372)^{20}\cdot 1.000.000 = 0,4682 \cdot 800.000 = 468.200,00$
+    - 40 anos: $V = (1-0,0372)^{40}\cdot 1.000.000 = 0,2192 \cdot 800.000 = 219.200,00$
+    - 50 anos: $V = (1-0,0372)^{50}\cdot 1.000.000 = 0,1500 \cdot 800.000 = 150.000,00$
+  
+## Razões (Fleischer)
+
+| TIPO                                            | Vida útil | Razão    (%) |
+|-------------------------------------------------|-----------|--------------|
+| Barracos                                        | 25        | 8,80         |
+| Residência Proletário Rústico a médio comercial | 67        | 2,79         |
+| Residências médio superior a luxo               | 50        | 3,72         |
+| Apartamentos e Escritórios                      | 40        | 5,59         |
+| Armazéns e Indústrias                           | 67        | 2,37         |
+| Construções de Madeira                          | 25        | 6,23         |
+
+: Razões a considerar no método do valor decrescente
+
+## Método de Kuentzle
+
+- $$Kd = \frac{V_u^2 - I_R^2}{V_u^2}$$
+
+- Exemplo: Residência médio superior a luxo
+  - 20 anos: $K_d = 0,15 + 0,85 \cdot [(50^2-20^2)/50^2] = 0,864$
+  - 40 anos: $K_d = 0,15 + 0,85 \cdot [(50^2-40^2)/50^2] = 0,456$
+  - 50 anos: $K_d = 0,15 + 0,85 \cdot [(50^2-50^2)/50^2] = 0,150$
+
+## Método de Ross
+
+- $$K_d = 1 - \frac{1}{2} \left( \frac{I_R}{V_u} + \frac{I_R^2}{V_u^2} \right)$$
+
+- É uma parábola com concavidade para baixo!
+
+- Exemplo: Residência médio superior a luxo
+  - 20 anos: $K_d = 0,15 + 0,85\cdot \left (1 - \frac{1}{2} \left( \frac{20}{50} + \frac{20^2}{50^2} \right) \right)= 0,762$
+  - 40 anos: $K_d = 0,15 + 0,85\cdot \left (1 - \frac{1}{2} \left( \frac{40}{50} + \frac{40^2}{50^2} \right) \right)= 0,388$
+  - 50 anos: $K_d = 0,15 + 0,85\cdot \left (1 - \frac{1}{2} \left( \frac{50}{50} + \frac{50^2}{50^2} \right) \right) = 0,150$
+  
+## Método de Heidecke
+
+- Leva em consideração o estado de conservação da benfeitoria
+
+. . . 
+
+![Coeficiente de Heidecke](./img/Heidecke.png)
+  
+## Método de Ross-Heidecke
+
+- É a combinação do Método de Ross, com o Método de Heidecke:
+
+  - $$D_{R-H} = [\alpha + (1-\alpha)c]V_d$$
+  - $\alpha$ é a parcela da depreciação devido à idade, de Ross
+  - $c$ é o coeficiente de Heidecke
+  - $V_d$ é o valor depreciável
+  
+- Exemplo: residência padrão médio a alto, necessitando de reparos importantes, valor residual de 15%:
+  - 20 anos: $\alpha = 0,5(20/50 + 20^2/50^2) = 0,28$, $c = 0,5260$
+    - $K_d = 1 - D_{R-H} = 1-[0,28 + (1-0,28)\cdot0,526]\cdot 0,85 \approx 0,44$
+  
+
+  
+## Resumo
+
+```{r}
+# Curva de Depreciacao
+library(appraiseR)
+plot(NULL, xlim = c(0, 50), ylim = c(0, 1), las = 2,
+xlab = "Idade Real ou Aparente",
+ylab = "Coeficiente de Depreciacao",
+main = "Depreciação de um bem")
+curve(straightLine(50, x, Salvage = 15/100), 
+      add = T)
+curve(kuentzle(50, x, Salvage = 15/100),
+      add = T, col = "green")
+# curve(doubleDeclining(50, x),
+#       add = T, col = "brown")
+# curve(sumOfYears(50, x, Salvage = 15/100), 
+#       add = T, col = "darkblue")
+curve(valorDecrescente(50, x, Salvage = 15/100), 
+      add = T, col ="blue")
+curve(ross(50, x, Salvage = 15/100), 
+      add = T, col = "red")
+curve(rossheidecke(50, x, Conservacao = "Reparos simples", Salvage = 15/100),
+      add = T, col = "orange")
+
+legend("bottomleft", inset = .02,
+      title = "Método",
+      legend=c("Valor Decrescente", "Linha Reta", "Ross-Heideck (Reparos Simples)",
+               "Ross", "Kuentzle"), text.font = 4,
+      col=c("blue", "black", "orange", "red", "green"), cex=0.8, lty = 1)
+```
+
+  
+# Fator de Comercialização {background-image="img/Fundo_Slide_Titulo.png"}
+
+## Fator de Comercialização
+
+- Também conhecido com 'Vantagem da Coisa Feita'
+
+- Segundo a @NBR1465301, o fator de comercialização é:
+  - razão entre o valor de mercado de um bem e o seu custo total, que pode ser 
+  igual, maior ou menor do que 1
+
+
+## Fator de Comercialização
+
+| Tipo de Prédios        | Novos | de 0 a 10 anos | de 10 a 20 anos | de 20 a 30 anos |
+|:-----------------------|:-----:|:--------------:|:---------------:|:---------------:|
+| Grande estrutura       | 30%   | 30% a 25%      | 25% a 15%       | 15% a 0         |
+| Pequena estrutura      | 20%   | 20% a 16,5%    | 16,5% a 10,5%   | 10,5% a 0       |
+| Industrial             | 15%   | 15% a 12,5%    | 12,5% a 7,5%    | 7,5% a 0        |
+| Residencial proletário | 10%   | 10% a 8,5%     | 8,5% a 5,0%     | 5% a 0          |
+Table: Vantagem da Coisa Feita. Fonte: Eng.º Joaquim da Rocha Medeiros Jr.
+
+
+## Fator de Comercialização
+
+- O fator de comercialização pode ser estimado!
+
+- Por exemplo, com base numa amostra com preço de terrenos e no custo de 
+reedição da benfeitoria, comparando-os com o valor do mercado da residência 
+pronta.
+
+- Assuma:
+  - Preço do terreno: $\text{P}_{\text{Terreno}} = \text{R\$ } 100.000,00$
+  - Custo de Reprodução: $\text{CC} = \text{R\$ } 400.000,00$
+  - Valor de Mercado da Casa (MCDDM): $\text{VM} = \text{R\$ } 600.000,00$ 
+  
+- Fator de Comercialização: 
+  - $$\text{FC} = \frac{600.000}{(100.000 + 400.000)} = 1,20$$
+  
+## Fator de Comercialização
+
+- Problemas: 
+  - Muitas vezes o valor de mercado é desconhecido!
+  - o capital empregado para a reedição da benfeitoria não é aplicado
+  instantaneamente (custo financeiro)!
+  - o  custo de reprodução deve considerar também a remuneração do construtor ou
+  incorporador e as despesas de venda (comissões)
+  
+  
+## Fator de Comercialização
+
+- Custos Financeiros:
+  - estima-se um prazo para a obra
+  - aplica-se uma taxa $i\%$ ao capital terreno ($V_t$) durante todo o período 
+  da obra e aplica-se à metade do capital-benfeitoria ($V_b$) no mesmo período:
+    - $$C_f = i\cdot n \cdot \left (V_t + \frac{V_b}{2} \right )$$
+- Lucro:
+  - É aceitável uma taxa de 5% a 25%, em conformidade com o tipo de investimento
+- Calculam-se as despesas de comercialização (comissões)
+  - É usual uma taxa de 3% a 6% 
+  
+## Fator de Comercialização
+
+- Exemplo 2:
+  - Uma casa num terreno de 10x25 $m^2$, com 180 $m^2$ de área construída, com
+  custo de reprodução estimado em R\$ 342.489,60. Considerar taxa de 0,72% a.m.,
+  13 meses de obra, com lucro previsto de 10%, despesas de comercialização de 6%
+  e valor do terreno de R\$ 137.500,00
+  
+- Solução:
+  - $V_t =  \text{R\$ } 135.000,00$; $V_b =  \text{R\$ } 342.489,60$
+  - $C_f = 0,0072 \cdot 13 (137.500 + 342489,60/2) = \text{R\$ } 28.898,51$
+  - $\sum = \text{R\$ } 508.888,11$
+  - $\text{Lucro} = \text{R\$ } 50.888,81$
+  - $D_v = \text{R\$ } 33.586,62$
+  - $V_v = \text{R\$ } 593.363,54$
+  - $\text{FC} = 593.363,54/(137.500,00 + 342.489,60) \approx 1,23$
+  
+  
+## Referências
