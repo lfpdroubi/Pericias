@@ -33,8 +33,6 @@ format:
 fontsize: 1.8em
 ---
 
-# Engenharia Diagnóstica {background-image="img/Fundo_Slide_Titulo.png"}
-
 ## Engenharia Diagnóstica
 
 - Conceito:
@@ -263,10 +261,8 @@ fontsize: 1.8em
 ## Principais problemas tratados na Eng.a Diagnóstica
 
 {{< video ./img/Veyron_02.mp4  width="300" height="500" >}}
-    
-# ABNT NBR 15.575 - Norma de Desempenho
 
-## Norma de Desempenho: Escopo
+## ABNT NBR 15.575 - Norma de Desempenho: Escopo
 
 - Escopo:
   - A NBR 15575 estabelece os requisitos e critérios de desempenho que se 
@@ -532,8 +528,6 @@ procedimentos de manutenção adotados são insuficientes ou inexistentes, além
 fornecer subsídios para orientar o plano e programas de manutenção, através das 
 recomendações técnicas indicadas no documento de inspeção predial.
 
-# Garantia de obra
-
 ## Garantia Legal: Introdução
 
 - Em obra nova, três situações podem ocorrer [@meirelles, p. 300]:
@@ -622,10 +616,4 @@ são definidas em legislação vigente.
   de aparecimento de falhas que suscitem o direito à garantia em legislação 
   vigente.
     
-# Engenharia Legal {background-image="img/Fundo_Slide_Titulo.png"}
-
-## Ações de Vizinhança
-
-## Perícias Judiciais
-
 ## Referências

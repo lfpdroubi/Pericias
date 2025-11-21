@@ -33,7 +33,6 @@ format:
 fontsize: 1.8em
 ---
 
-# Introdução {background-image="img/Fundo_Slide_Titulo.png"}
 
 ## Introdução
 

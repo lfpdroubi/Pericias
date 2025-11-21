@@ -33,8 +33,6 @@ format:
 fontsize: 1.8em
 ---
 
-# Perícias de Custos {background-image="img/Fundo_Slide_Titulo.png"}
-
 ## Introdução
 
 - [Lei 4.591/1964](https://www.planalto.gov.br/ccivil_03/leis/l4591.htm):
@@ -170,8 +168,6 @@ para o efeito de aplicação do disposto no § 2º do art. 48.
   - Fundações especiais
   - Etc.
   
-# Orçamentação
-
 ## Preço de Venda e BDI
 
 - Segundo @mattos2019 [p. 279]:

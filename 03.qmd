@@ -33,8 +33,6 @@ format:
 fontsize: 1.8em
 ---
 
-# Perícias de Valor {background-image="img/Fundo_Slide_Titulo.png"}
-
 ## Introdução
 
 - Avaliação Judicial [@meirelles, 392]:
@@ -57,8 +55,7 @@ fontsize: 1.8em
   
 - O Método da Quantificação do Custo também é importante, sendo utilizado em
 conjunto com outros métodos, como o Evolutivo ou Involutivo
-  
-# Método Evolutivo {background-image="img/Fundo_Slide_Titulo.png"}
+
 
 ## Método Evolutivo
 
@@ -72,7 +69,6 @@ comercialização
 
 ![](./img/Grau_Fundamentacao_Evolutivo.png)
 
-# Método da Quantificação do Custo {background-image="img/Fundo_Slide_Titulo.png"}
 
 ## O Método da Quantificação do Custo
 
@@ -113,11 +109,11 @@ edificação
 
 | Tipo                | Margem de Erro           |
 |:--------------------|:-------------------------|
-| Avaliações          | De $\pm 30$ a $\pm 20\%$ |
-| Estimativas         | De $\pm 20$ a $\pm 15\%$ |
-| Orçamento Expedito  | De $\pm 15$ a $\pm 10\%$ |
-| Orçamento Detalhado | De $\pm 10$ a $\pm 5\%$  |
-| Orçamento Analítico | De $\pm 5$ a $\pm 1\%$   |
+| Avaliações          | De +-30 a +-20 %         |
+| Estimativas         | De +- 20 a +- 15 %       |
+| Orçamento Expedito  | De +- 15 a +- 10%        |
+| Orçamento Detalhado | De +- 10 a +- 5%         |
+| Orçamento Analítico | De +- 5 a +- 1%          |
 Table: Diferenças e características das avaliações, estimativas e orçamentos.
 
 ## Classes de Estimativa (AACE)
@@ -156,11 +152,11 @@ Table: Diferenças e características das avaliações, estimativas e orçamento
 | Cobertura Externa         | 0,60  |
 | Barrilete/ Casas de Máq.  | 0,70  |
 
-## Exercicio
+## Exercício
 
-- Uma residência possui área interna de 80 $m^2$, além de garagem e área de
-serviço (área externa coberta) que somam 45 $m^2$. Nos fundos, a residência tem
-uma área *gourmet* de 100 $m^2$ e jardins que somam 135 $m^2$. Calcule a área
+- Uma residência possui área interna de 80 m2, além de garagem e área de
+serviço (área externa coberta) que somam 45 m2. Nos fundos, a residência tem
+uma área *gourmet* de 100 m2 e jardins que somam 135 m2. Calcule a área
 equivalente!
 
 ## Solução
@@ -239,8 +235,6 @@ padrão de construção seja normal, com CUB igual a R\$ 3.260,72 $/m^2$ na regi
   - $A$ é a taxa de administração da obra
   - $F$ é o percentual relativo às despesas financeiras
   - $L$ é o percentual correspondente ao lucro ou remuneração da construtora
-
-# Depreciação {background-image="img/Fundo_Slide_Titulo.png"}
 
 ## Conceito de Custo de Reedição de benfeitoria
 
@@ -430,8 +424,6 @@ legend("bottomleft", inset = .02,
       col=c("blue", "black", "orange", "red", "green"), cex=0.8, lty = 1)
 ```
 
-  
-# Fator de Comercialização {background-image="img/Fundo_Slide_Titulo.png"}
 
 ## Fator de Comercialização
 
