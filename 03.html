@@ -6,8 +6,8 @@
 <script src="03_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="03_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="03_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="03_files/libs/quarto-html/quarto-syntax-highlighting-985aa47af68dae11cd4d235c71fb941e.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.27">
+<link href="03_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Luiz Fernando Palin Droubi">
   <title>Perícias e Auditoria em Edificações</title>
@@ -49,7 +49,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="03_files/libs/revealjs/dist/theme/quarto-6d08d0469cccb05dacf59257945e22e2.css">
+  <link rel="stylesheet" href="03_files/libs/revealjs/dist/theme/quarto-414706e0e30629ca2a57b25cf4dc00e2.css">
   <link href="03_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="03_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="03_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -157,12 +157,12 @@
 Luiz Fernando Palin Droubi 
 </div>
         <p class="quarto-title-affiliation">
-            Faculdade EDUFOR
+            Faculdade INBEC
           </p>
     </div>
 </div>
 
-  <p class="date">28 de novembro de 2025</p>
+  <p class="date">8 de abril de 2026</p>
 </section>
 <section id="introdução" class="slide level2">
 <h2>Introdução</h2>
@@ -665,7 +665,9 @@ Luiz Fernando Palin Droubi
 </tr>
 </tbody>
 </table>
-<p>The declining balance method is an accelerated way to record larger depreciation in an asset’s early years. The system records smaller depreciation expenses during the asset’s later years.</p>
+<ul>
+<li class="fragment">The declining balance method is an accelerated way to record larger depreciation in an asset’s early years. The system records smaller depreciation expenses during the asset’s later years.</li>
+</ul>
 </section>
 <section id="método-de-kuentzle" class="slide level2">
 <h2>Método de Kuentzle</h2>
@@ -1053,7 +1055,7 @@ Meirelles, Hely Lopes. 2013. <em>Direito de Construir</em>. 11.ª ed. São Paulo
         mobileViewDistance: 2,
 
        // Parallax background image
-       parallaxBackgroundImage: './img/Fundo_Slide_Comum.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+       parallaxBackgroundImage: './img/Fundo_Slide_Comum.png', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
 
         // Parallax background size
         parallaxBackgroundSize: 'cover', // CSS syntax, e.g. "2100px 900px"
@@ -1069,7 +1071,7 @@ Meirelles, Hely Lopes. 2013. <em>Direito de Construir</em>. 11.ª ed. São Paulo
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1096,80 +1098,42 @@ Meirelles, Hely Lopes. 2013. <em>Direito de Construir</em>. 11.ª ed. São Paulo
       });
     </script>
     
-
     <script>
-
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-
       // slide changes (different for each slide format).
-
       (function () {
-
         // dispatch for htmlwidgets
-
         function fireSlideEnter() {
-
           const event = window.document.createEvent("Event");
-
           event.initEvent("slideenter", true, true);
-
           window.document.dispatchEvent(event);
-
         }
-
-    
 
         function fireSlideChanged(previousSlide, currentSlide) {
-
           fireSlideEnter();
 
-    
-
           // dispatch for shiny
-
           if (window.jQuery) {
-
             if (previousSlide) {
-
               window.jQuery(previousSlide).trigger("hidden");
-
             }
-
             if (currentSlide) {
-
               window.jQuery(currentSlide).trigger("shown");
-
             }
-
           }
-
         }
-
-    
 
         // hookup for slidy
-
         if (window.w3c_slidy) {
-
           window.w3c_slidy.add_observer(function (slide_num) {
-
             // slide_num starts at position 1
-
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-
           });
-
         }
 
-    
-
       })();
-
     </script>
-
-    
 
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1219,13 +1183,14 @@ Meirelles, Hely Lopes. 2013. <em>Direito de Construir</em>. 11.ª ed. São Paulo
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

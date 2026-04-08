@@ -4,7 +4,7 @@ subtitle: "Engenharia Diagnóstica"
 author: "Luiz Fernando Palin Droubi"
 date: last-modified
 date-format: long
-institute: Faculdade EDUFOR
+institute: Faculdade INBEC
 bibliography: referencias.bib
 title-slide-attributes:
   #data-background-image: img/Fundo_Slide_Titulo.png
@@ -16,7 +16,7 @@ title-slide-attributes:
 lang: pt
 format:
   revealjs:
-    background-image: "./img/Fundo_Slide_Comum.jpg"
+    background-image: "./img/Fundo_Slide_Comum.png"
     parallax-background-size: cover 
     width: 1280
     height: 720

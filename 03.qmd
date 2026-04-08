@@ -4,7 +4,7 @@ subtitle: "Engenharia de Avaliações"
 author: "Luiz Fernando Palin Droubi"
 date: last-modified
 date-format: long
-institute: Faculdade EDUFOR
+institute: Faculdade INBEC
 bibliography: referencias.bib
 title-slide-attributes:
   #data-background-image: img/Fundo_Slide_Titulo.png
@@ -16,7 +16,7 @@ title-slide-attributes:
 lang: pt
 format:
   revealjs:
-    background-image: "./img/Fundo_Slide_Comum.jpg"
+    background-image: "./img/Fundo_Slide_Comum.png"
     parallax-background-size: cover 
     width: 1280
     height: 720
@@ -402,23 +402,51 @@ expenses during the asset's later years.
 ```{r}
 # Curva de Depreciacao
 library(appraiseR)
+Ross <- function(N, Age, Salvage = 0){
+  VU <- N
+  I <- Age
+  PR <- Salvage
+  PD <- 1 - PR
+  D <- .5*(I/VU+I^2/VU^2)
+  Kd <- PR + PD*(1 - D)
+  Kd
+}
+RossHeideck <- function(N, Age,
+                         Conservacao = c("Novo", "Entre novo e regular", "Regular",
+                                         "Entre regular e reparos simples",
+                                         "Reparos simples",
+                                         "Entre reparos simples e importantes",
+                                         "Reparos importantes",
+                                         "Entre reparos importantes e sem valor",
+                                         "Sem valor"),
+                        Salvage = 0) {
+  VU <- N
+  I <- Age
+  Vd <- 1 - Salvage
+  Conservacao <- match.arg(Conservacao)
+  alpha <- 1 - Ross(VU, I)
+  C <- 1 - Heideck(Conservacao)
+  D <- (alpha + (1- alpha)*C)*Vd
+  Kd <- 1 - D
+  Kd
+}
 plot(NULL, xlim = c(0, 50), ylim = c(0, 1), las = 2,
 xlab = "Idade Real ou Aparente",
 ylab = "Coeficiente de Depreciacao",
 main = "Depreciação de um bem")
 curve(straightLine(50, x, Salvage = 15/100), 
       add = T)
-curve(kuentzle(50, x, Salvage = 15/100),
+curve(Kuentzle(50, x, Salvage = 15/100),
       add = T, col = "green")
 # curve(doubleDeclining(50, x),
 #       add = T, col = "brown")
 # curve(sumOfYears(50, x, Salvage = 15/100), 
 #       add = T, col = "darkblue")
-curve(valorDecrescente(50, x, Salvage = 15/100), 
+curve(DBM(50, x, Salvage = 15/100), 
       add = T, col ="blue")
-curve(ross(50, x, Salvage = 15/100), 
+curve(Ross(50, x, Salvage = 15/100), 
       add = T, col = "red")
-curve(rossheidecke(50, x, Conservacao = "Reparos simples", Salvage = 15/100),
+curve(RossHeideck(50, x, Conservacao = "Reparos simples", Salvage = 15/100),
       add = T, col = "orange")
 
 legend("bottomleft", inset = .02,
