@@ -54,7 +54,7 @@ fontsize: 1.8em
 
 ## Ferramentas da Engenharia Diagnóstica
 
-- Vistoria: 
+- **Vistoria**: 
   - É a constatação técnica de determinado fato, condição ou direito relativo a
   um objeto. Referida ferramenta visa consignar tecnicamente algo relevante num
   determinado momento para posterior análise ou simples arquivamento. As 
@@ -64,7 +64,7 @@ fontsize: 1.8em
   
 ## Ferramentas da Engenharia Diagnóstica
 
-- Inspeção:  
+- **Inspeção**:  
   - Ê a análise técnica de determinado fato, condição ou direito relativo a um 
   objeto, com base em informações genéricas e interpretação baseada na 
   experiência do inspetor. As inspeções visam analisar e classificar 
@@ -73,7 +73,7 @@ fontsize: 1.8em
   
 ## Ferramentas da Engenharia Diagnóstica
 
-- Auditoria: 
+- **Auditoria**: 
   - É o testamento técnico de conformidade, ou não, de um fato, condição ou 
   direito relativo a um objeto, A auditoria técnica tem a finalidade de 
   controlar algo passível de ser confrontado com índice ou exigências 
@@ -81,14 +81,14 @@ fontsize: 1.8em
   
 ## Ferramentas da Engenharia Diagnóstica
 
-- Perícia:
+- **Perícia**:
   - É a apuração técnica da origem, causa e mecanismo de ação de um fato, 
   condição ou direito relativo a um objeto. A perícia visa determinar 
   tecnicamente a responsabilidade de algo, para posterior reparação;  
 
 ## Ferramentas da Engenharia Diagnóstica
 
-- Consultoria: 
+- **Consultoria**: 
   - É a prescrição técnica a respeito de um fato, condição ou direito relativo a
   um objeto. A reparação de problema técnico requer a indicação das correções 
   através da ferramenta representada pela consultoria.
@@ -262,6 +262,95 @@ fontsize: 1.8em
 
 {{< video ./img/Veyron_02.mp4  width="300" height="500" >}}
 
+## Garantia Legal: Introdução
+
+- Em obra nova, três situações podem ocorrer [@meirelles, p. 300]:
+  - Se a obra estiver perfeita, de acordo com o respectivo projeto e sem falhas
+  aparentes, o dono é obrigado a recebê-la;
+  - se a obra desobedeceu os planos, afastou-se das regras técnicas ou 
+  apresentou defeitos, o dono pode rejeitá-la;
+  - alternativamente, recebê-la com abatimento de preço.
+  
+## Garantia Legal: vícios aparentes ou ocultos
+
+- Tratam-se de **vícios** ou **defeitos _aparentes_**
+  - Ainda que o dono tenha recebido a obra sem percebê-las, poderá reclamar pela
+  sua correção, ou indenização, no prazo de noventa dias, a contar do momento
+  da entrega da obra, nos termos do art. 26, inciso II, e $\S 1^\circ$ do CDC
+  [@cdc].
+  
+- Já para os **vícios** ou **defeitos _ocultos_**, são aquele que "só vão
+aparecer depois do recebimento da obra e de sua utilização pelo respectivo
+morador".
+  - São infiltrações, vazamentos, rachaduras, mau funcionamento das instalações
+  elétricas ou hidráulicas, etc.
+  
+## Garantia Legal: vícios redibitórios
+  
+- **Vício redibitório**: "é um vício grave existente no produto adquirido, mas
+não percebido no momento da aquisição; vício de tal gravidade que, se o
+adquirente tivesse conhecimento dele antes do ajuste, não o teria adquirido, ou
+pleitearia abatimento no preço."
+  - "Prazo para pleitear o desfazimento do negócio é relativamente curto: um ano
+  a partir da entrega definitiva do imóvel, ou sua metade se já estiver na posse
+  do mesmo."
+  - "Não obstante, quando o vício, por sua natureza, só puder ser conhecido
+  mais tarde, o prazo contar-se-á do momento em que o adquirente dele tiver
+  ciência..."
+  
+## Garantia Legal: prazo quinquenal
+
+- Segundo @meirelles [p. 301-302]:
+  - O contrato de construção de obra de engenharia (por empreitada ou por
+  administração) é o único que dispõe de uma prazo de garantia legal de cinco
+  anos para o seu objeto, estabelecido no art. 618 do Código Civil, 
+  originalmente aplicável apenas a problemas envolvendo a solidez e segurança
+  da edificação!
+  - Problema que se coloca pe saber se o construtor deve responder por todos os
+  vícios ou defeitos ocultos que vierem a surgir no prazo de cinco anos, ou se
+  tal prazo só abrange os vícios que afetem a solidez e segurança da obra.
+  - A jurisprudência pátria encarregou-se de ampliar esse conceito, para nele
+  incluir casos em que os defeitos não tinham como consequência a ruína do 
+  edifício, mas poderiam comprometer a saúde e a segurança de seus moradores,
+  ainda que num futuro mediato, como ocorre com as rachaduras, infiltrações,
+  queda de revestimentos, etc.
+  
+## Garantia: prazo quinquenal
+
+- Segundo @meirelles [p. 303]:
+  - Como lembra Mário Moacyr Porto, "inclui-se na garantia quinquenal todo
+  defeito que compromete a destinação do imóvel, pois segurança também significa
+  garantia de que a construção serve, a contento, ao fim para que foi construída
+  ou destinada."
+  - Sem dúvida, há uma zona cinzenta entre os vícios ocultos que venham a
+  surgir durante o prazo de garantia de cinco anos.
+  
+## Garantia Legal: o Código de Defesa do Consumidor (CDC)
+
+- Segundo @meirelles [p. 304-305]: 
+    - O CDC dispõe diferentemente do Código Civil. Enquanto este considera vício
+    e defeito como sinônimos, o CDC os distingue.
+    - O defeito constitui uma falha mais grave que põe em risco a segurança do
+    consumidor.
+    - Dispõe o CDC que os fornecedores de produtos duráveis respondem 
+    solidariamente pelos _vicios_ de qualidade ou quantidade que os tornem 
+    impróprios ou inadequados ao consumo a que se destinam, ou lhes diminuam o
+    valor (art. 18), o mesmo ocorrendo com o fornecedor de serviços (art. 20).
+    - O CDC não estabeleceu prazos fixos de garantia dentro dos quais os 
+    _vícios_ ocultos devem surgir, para que possam ser reclamados.
+    - Considera-se que essa garantia deve estender-se pelo prazo razoável de
+    durabilidade que o próprio fornecedor transmite ao consumidor.
+    
+## Norma de Garantia: Introdução
+
+- As garantias que o incorporador, construtor ou o prestador de serviços de
+construção proporciona aos proprietários de edificações quanto aos sistemas 
+construtivos, componentes e equipamentos, **relacionados à solidez e segurança**,
+são definidas em legislação vigente. 
+  - No entanto, os itens não enquadrados em solidez e segurança não têm prazos 
+  de aparecimento de falhas que suscitem o direito à garantia em legislação 
+  vigente.
+
 ## ABNT NBR 15.575 - Norma de Desempenho: Escopo
 
 - Escopo:
@@ -392,11 +481,11 @@ normas prescritivas e esta norma, deve-se atender os critérios mais exigentes;
 ## Norma de Desempenho: Terminologia
 
 - Termos e Definições:
-  - **Vida útil (VU ou _service life_)**: período de tempo em que um edifício e/ou seus sistemas 
-  se prestam às atividades para as quais foram projetados e construídos 
-  considerando a periodicidade e correta execução dos processos de manutenção 
-  especificados no respectivo Manual de Uso, Operação e Manutenção (a vida útil 
-  não pode ser confundida com prazo de garantia legal e certificada);
+  - **Vida útil (VU ou _service life_)**: período de tempo em que um edifício 
+  e/ou seus sistemas se prestam às atividades para as quais foram projetados e 
+  construídos considerando a periodicidade e correta execução dos processos de 
+  manutenção especificados no respectivo Manual de Uso, Operação e Manutenção (a
+  vida útil não pode ser confundida com prazo de garantia legal e certificada);
 
   - **Vida Útil de Projeto (VUP ou _design life_)**: período estimado de tempo 
   para o qual um sistema é projetado a fim de atender aos requisitos de 
@@ -528,92 +617,6 @@ procedimentos de manutenção adotados são insuficientes ou inexistentes, além
 fornecer subsídios para orientar o plano e programas de manutenção, através das 
 recomendações técnicas indicadas no documento de inspeção predial.
 
-## Garantia Legal: Introdução
 
-- Em obra nova, três situações podem ocorrer [@meirelles, p. 300]:
-  - Se a obra estiver perfeita, de acordo com o respectivo projeto e sem falhas
-  aparentes, o dono é obrigado a recebê-la;
-  - se a obra desobedeceu os planos, afastou-se das regras técnicas ou 
-  apresentou defeitos, o dono pode rejeitá-la;
-  - alternativamente, recebê-la com abatimento de preço.
-  
-## Garantia Legal: vícios aparentes ou ocultos
-
-- Tratam-se de **vícios** ou **defeitos _aparentes_**
-  - Ainda que o dono tenha recebido a obra sem percebê-las, poderá reclamar pela
-  sua correção, ou indenização, no prazo de noventa dias, a contar do momento
-  da entrega da obra, nos termos do art. 26, inciso II, e § 1º do CDC.
-  
-- Já para os **vícios** ou **defeitos _ocultos_**, são aquele que "só vão
-aparecer depois do recebimento da obra e de sua utilização pelo respectivo
-morador".
-  - São infiltrações, vazamentos, rachaduras, mau funcionamento das instalações
-  elétricas ou hidráulicas, etc.
-  
-## Garantia Legal: vícios redibitórios
-  
-- **Vício redibitório**: "é um vício grave existente no produto adquirido, mas
-não percebido no momento da aquisição; vício de tal gravidade que, se o
-adquirente tivesse conhecimento dele antes do ajuste, não o teria adquirido, ou
-pleitearia abatimento no preço."
-  - "Prazo para pleitear o desfazimento do negócio é relativamente curto: um ano
-  a partir da entrega definitiva do imóvel, ou sua metade se já estiver na posse
-  do mesmo."
-  - "Não obstante, quando o vício, por sua natureza, só puder ser conhecido
-  mais tarde, o prazo contar-se-á do momento em que o adquirente dele tiver
-  ciência..."
-  
-## Garantia Legal: prazo quinquenal
-
-- Segundo @meirelles [p. 301-302]:
-  - O contrato de construção de obra de engenharia (por empreitada ou por
-  administração) é o único que dispõe de uma prazo de garantia legal de cinco
-  anos para o seu objeto, estabelecido no art. 618 do Código Civil, 
-  originalmente aplicável apenas a problemas envolvendo a solidez e segurança
-  da edificação!
-  - Problema que se coloca pe saber se o construtor deve responder por todos os
-  vícios ou defeitos ocultos que vierem a surgir no prazo de cinco anos, ou se
-  tal prazo só abrange os vícios que afetem a solidez e segurança da obra.
-  - A jurisprudência pátria encarregou-se de ampliar esse conceito, para nele
-  incluir casos em que os defeitos não tinham como consequência a ruína do 
-  edifício, mas poderiam comprometer a saúde e a segurança de seus moradores,
-  ainda que num futuro mediato, como ocorre com as rachaduras, infiltrações,
-  queda de revestimentos, etc.
-  
-## Garantia: prazo quinquenal
-
-- Segundo @meirelles [p. 303]:
-  - Como lembra Mário Moacyr Porto, "inclui-se na garantia quinquenal todo
-  defeito que compromete a destinação do imóvel, pois segurança também significa
-  garantia de que a construção serve, a contento, ao fim para que foi construída
-  ou destinada."
-  - Sem dúvida, há uma zona cinzenta entre os vícios ocultos que venham a
-  surgir durante o prazo de garantia de cinco anos.
-  
-## Garantia Legal: o Código de Defesa do Consumidor (CDC)
-
-- Segundo @meirelles [p. 304-305]: 
-    - O CDC dispõe diferentemente do Código Civil. Enquanto este considera vício
-    e defeito como sinônimos, o CDC os distingue.
-    - O defeito constitui uma falha mais grave que põe em risco a segurança do
-    consumidor.
-    - Dispõe o CDC que os fornecedores de produtos duráveis respondem 
-    solidariamente pelos _vicios_ de qualidade ou quantidade que os tornem 
-    impróprios ou inadequados ao consumo a que se destinam, ou lhes diminuam o
-    valor (art. 18), o mesmo ocorrendo com o fornecedor de serviços (art. 20).
-    - O CDC não estabeleceu prazos fixos de garantia dentro dos quais os 
-    _vícios_ ocultos devem surgir, para que possam ser reclamados.
-    - Considera-se que essa garantia deve estender-se pelo prazo razoável de
-    durabilidade que o próprio fornecedor transmite ao consumidor.
-    
-## Norma de Garantia: Introdução
-
-- As garantias que o incorporador, construtor ou o prestador de serviços de
-construção proporciona aos proprietários de edificações quanto aos sistemas 
-construtivos, componentes e equipamentos, **relacionados à solidez e segurança**,
-são definidas em legislação vigente. 
-  - No entanto, os itens não enquadrados em solidez e segurança não têm prazos 
-  de aparecimento de falhas que suscitem o direito à garantia em legislação 
-  vigente.
     
 ## Referências

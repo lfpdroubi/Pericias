@@ -46,15 +46,6 @@ juiz nomeia um auxiliar da justiça - o perito, ou "*expert*" - para apoiá-lo.
 responsabilidade de conduzir a perícia no prazo determinado, utilizando toda sua 
 expertise. 
 
-## Ética profissional
-
-- [Lei 5.194/1966](https://www.planalto.gov.br/ccivil_03/Leis/L5194.htm):
-  - Regula o exercício das profissões de Engenheiro, Arquiteto e 
-  Engenheiro-Agrônomo, e dá outras providências.
-
-- [Código de ética do CONFEA](https://normativos.confea.org.br/Ementas/Visualizar?id=253):
-  - Atualizado pela [Resolução nº 1.002, de 26 de novembro de 2002](https://normativos.confea.org.br/Ementas/Visualizar?id=542).
-  
 ## Estrutura do Curso
 
 - Sexta-Feira:
@@ -100,14 +91,38 @@ expertise.
   
 ## Perícias de Engenharia
 
-- Perícias estão previstas como meios de prova (Código Civil e Código de 
+- Perícias estão previstas como **meios de prova** (Código Civil e Código de 
 Processo Civil)
 
 - São admitidas sempre que a comprovação do fato depender do conhecimento 
 técnico ou científico (Código de Processo Civil, art. 145)
 
-- Perícia judicial: "é toda verificação de fato ou fixação de valor, realizada
-em juízo e expressa em laudo, por pessoa compromissada no processo."
+- **Perícia judicial**: "é toda verificação de fato ou fixação de valor, 
+realizada em juízo e expressa em laudo, por pessoa compromissada no processo."
+
+## Perícias de Engenharia {.smaller}
+
+- Segundo @medeiros [p. 33]:
+
+  - **Perícia**:
+    - Atividade concernente a exame realizado por profissional especialista, 
+    legalmente habilitado, destinada a verificar ou esclarecer determinado fato,
+    apurar as causas motivadoras do mesmo, ou o estado, alegação de direitos ou a
+    estimação da coisa que é objeto de litígio ou processo.
+    
+  - **Perito**:
+    - Profissional legalmente habilitado, idôneo e especialista, convocado para
+    realizar uma perícia.
+    
+  - **Assistente Técnico**:
+    - Profissional legalmente habilitado, **indicado e contratado pela parte**
+    para orientá-la, assistir aos trabalhos periciais em todas as fases da 
+    perícia e, quando necessário, emitir seu **Parecer Técnico**
+    
+  - **Laudo**:
+    - Parecer técnico escrito e fundamentado, emitir por um especialista indicado
+    por autoridade, relatando resultados de exames e vistorias, assim como 
+    eventuais avaliações com ele relacionadas.
 
 ## Objetivo da Perícia Judicial
 
@@ -127,6 +142,10 @@ de ofício ou a requerimento das partes [@meirelles, 385].
   - Exame
   - Vistoria
   - Avaliação
+  
+## Evolução da conceituação das perícias
+
+![Marcos Legais e Normativos desde 1990](./img/Pericias_Evolucao.png)
 
 ## Espécies de Perícias de Engenharia
 
@@ -238,10 +257,58 @@ especificados.
     f. desenvolvimento de metologia investigativa em atendimento aos requisitos
     dos trabalhos para a análise do nexo causal, com descrição fundamentada dos
     mecanismos de ação que expliquem as ocorrências caracterizadas, suas origens
-     e agentes causadores;
-     g. classificação das ocorrências ou fatos de forma fundamentada e em
-     atendimento à metodologia investigativa adotada no desenvolvimento da
-     perícia.
+    e agentes causadores;
+    g. classificação das ocorrências ou fatos de forma fundamentada e em
+    atendimento à metodologia investigativa adotada no desenvolvimento da
+    perícia.
+     
+## Uma nota sobre terminologia
+
+Segundo a @NBR13752 [p. 6]:
+  - "espécie de perícia que pode ter  como objetivo a constatação de fatos, 
+  análise comparativa de conformidade ou desenvolvimento de método investigativo
+  e analítico fundamentado que permita apuração de causas e consequências, 
+  conforme 6.4."
+  
+## Uma nota sobre terminologia
+
+Segundo a @NBR16747 [p. 5:
+  - "A inspeção predial baseia-se na avaliação das condições técnicas, de uso,
+  operação, manutenção e funcionalidade da edificação e de seus sistemas e
+  subsistemas construtivos, **de forma sistêmica e predominantemente sensorial**
+  (na data da vistoria), considerando os requisitos dos usuários."
+  - A avaliação consiste na constatação da situação da edificação quanto à sua
+  capacidade de atender à suas funções segundo os requisitos dos usuários, com
+  registro das anomalias, falhas de manutenção, uso e operação e manifestações
+  patológicas identificadas nos diversos componentes de uma edificação.
+
+## Uma nota sobre terminologia
+
+- Na Engenharia Diagnóstica, segundo @gomide:
+  - "vistorias constatam, inspeções analisam, auditorias atestam, perícias apuram
+  causas e as consultorias são um compilado de todas as anteriores somando os
+  conhecimentos para preencher as prescrições técnicas."
+  
+- De acordo com a terminologia acima:
+  - **Vistoria** é o que a @NBR13752 denomina de **vistoria de constatação**;
+  - **Inspeções** é o que está previsto na @NBR16747 - **inspeção Predial**;
+  - **Auditoria** é o que a @NBR13752 denomina de **vistoria de conformidade**;
+  - **Perícias** é o que a @NBR13752 denomina de **vistoria de análise de causalidade**;
+  
+## Um nota sobre terminologia
+
+![Ferramentas da Engenharia Diagnóstica](./img/Ferramentas_Enga_Diagnostica.png)
+
+## Uma nota sobre terminologia
+
+- Segundo @gomide:
+  - **Relatório**:
+      - termo utilizado nas vistorias em que se faz uso apenas de relatos 
+      visuais e fotográficos
+  - **Laudo**:
+    - termo utilizado para auditorias, inspeções e perícias.
+  - **Parecer**:
+    - termo utilizado para as consultorias 
      
 ## Perícias possessória e dominial
 
@@ -254,13 +321,16 @@ manutenção de posse, entre outras) e dominiais (retificação de área, unific
 de imóveis, apuração de remanescentes, averbação de abertura de ruas, inserção
 de dimensões, demarcação, entre outras).
 
+- Existe um módulo específico para este tipo de perícias:
+  - Perícias Reais Imobiliárias
+
 ## Espécies de Perícias mais comuns {.smaller}
 
 - As perícias mais comuns em edificações são:
 
   - Períciais Técnicas (Engenharia Diagnóstica):
     - Vistorias e elaboração de laudos para análise das causas e soluções para 
-    as anomalis, falhas e manifestações patológicas.
+    as anomalias, falhas e manifestações patológicas.
 
   - Perícias de Valor (Engenharia de Avaliações):
     - Após uma eventual vistoria do imóvel avaliando, ou elaboração de projeto
@@ -275,6 +345,19 @@ de dimensões, demarcação, entre outras).
   - Outras perícias:
     - Ações de Vizinhança    
     
+## Ações que envolvem perícias de engenharia
+
+- @ibapesp12 [p. 589]:
+  - Desapropriações
+  - Revisionais/Renovatórias de Locação
+  - Indenizações
+  - Execuções
+  - Dissolução de Sociedades
+  - Falências
+  - Inventários
+  - Separações
+  - Sub-rogação de vínculo (compra de dívida por terceiros)
+  
 ## Perito e assistentes técnicos
 
 - Perito são pessoas chamadas a expor ao juiz não só as observações de seus 
@@ -290,7 +373,60 @@ especializados, não lhe seria possível realizar com êxito.
 - Cabe a cada uma das partes indicar o seu assitente técnico
 
 - O perito deverá apresentar o laudo no prazo fixado pelo juiz.
-    
+
+- A legislação pertinente encontra-se na Seção X (Da prova pericial) da
+Lei nº 13.105 [@cpc], que vai dos arts. 464 a 480.
+
+## Nomeação do Perito
+
+- Art. 465. O juiz nomeará perito especializado no objeto da perícia e fixará de
+imediato o prazo para a entrega do laudo.
+  - $\S 1^\circ$ Incumbe às partes, dentro de 15 (quinze) dias contados da 
+  intimação do despacho de nomeação do perito:  
+  i. arguir o impedimento ou a suspeição do perito, se for o caso;
+  ii. indicar assistente técnico;
+  iii. apresentar quesitos.
+  - $\S 2^\circ$ Ciente da nomeação, o perito apresentará em 5 (cinco) dias:  
+  i. proposta de honorários;
+  ii. currículo, com comprovação de especialização;
+  iii. contatos profissionais, em especial o endereço eletrônico, para onde 
+  serão dirigidas as intimações pessoais.
+
+## Nomeação do Perito
+
+- Art. 465. O juiz nomeará perito especializado no objeto da perícia e fixará de
+imediato o prazo para a entrega do laudo.
+  - $\S 3^\circ$ As partes serão intimadas da proposta de honorários para, 
+  querendo, manifestar-se no prazo comum de 5 (cinco) dias, após o que o juiz 
+  arbitrará o valor, intimando-se as partes para os fins do art. 95.
+  - $\S 4^\circ$ O juiz poderá autorizar o pagamento de até cinquenta por cento 
+  dos honorários arbitrados a favor do perito no início dos trabalhos, devendo o
+  remanescente ser pago apenas ao final, depois de entregue o laudo e prestados
+  todos os esclarecimentos necessários.
+  - $\S 5^\circ$ Quando a perícia for inconclusiva ou deficiente, o juiz poderá 
+  reduzir a remuneração inicialmente arbitrada para o trabalho.
+  
+- Art. 466. O perito cumprirá escrupulosamente o encargo que lhe foi cometido, 
+independentemente de termo de compromisso.
+  
+## Nomeação do Perito
+
+- Art. 467. O perito pode escusar-se ou ser recusado por impedimento ou suspeição.
+  - Parágrafo único. O juiz, ao aceitar a escusa ou ao julgar procedente a 
+  impugnação, nomeará novo perito.
+
+-  Art. 468. O perito pode ser substituído quando:
+  i. faltar-lhe conhecimento técnico ou científico;
+  ii. sem motivo legítimo, deixar de cumprir o encargo no prazo que lhe foi 
+  assinado.
+  - $\S 1^\circ$ No caso previsto no inciso II, o juiz comunicará a ocorrência à
+  corporação profissional respectiva, podendo, ainda, impor multa ao perito, 
+  fixada tendo em vista o valor da causa e o possível prejuízo decorrente do 
+  atraso no processo.
+  - $\S 2^\circ$ O perito substituído restituirá, no prazo de 15 (quinze) dias, 
+  os valores recebidos pelo trabalho não realizado, sob pena de ficar impedido 
+  de atuar como perito judicial pelo prazo de 5 (cinco) anos.
+  
 ## Laudo
 
 > Laudo é o resultado da perícia, expresso em conclusões escritas, fundamentadas
@@ -312,18 +448,100 @@ intimação às partes da apresentação do laudo do perito
 - O que se requer do laudo é o aclaramento das questões técnicas submetidas à
 apreciação pericial!
 
+## Laudo
+
+- Art. 473. O laudo pericial deverá conter:  
+  i. a exposição do objeto da perícia;
+  ii. a análise técnica ou científica realizada pelo perito;
+  iii. a indicação do método utilizado, esclarecendo-o e demonstrando ser
+  predominantemente aceito pelos especialistas da área do conhecimento da qual 
+  se originou;
+  iv. resposta conclusiva a todos os quesitos apresentados pelo juiz, pelas 
+  partes e pelo órgão do Ministério Público.
+
+- $\S 1^\circ$ No laudo, o perito deve apresentar sua fundamentação em linguagem
+simples e com coerência lógica, indicando como alcançou suas conclusões.
+
+- $\S 2^\circ$ É vedado ao perito ultrapassar os limites de sua designação, bem 
+como emitir opiniões pessoais que excedam o exame técnico ou científico do 
+objeto da perícia.
+
+## Laudo
+
+- $\S 3^\circ$ Para o desempenho de sua função, o perito e os assistentes 
+técnicos podem valer-se de todos os meios necessários, ouvindo testemunhas, 
+obtendo informações, solicitando documentos que estejam em poder da parte, de 
+terceiros ou em repartições públicas, bem como instruir o laudo com planilhas, 
+mapas, plantas, desenhos, fotografias ou outros elementos necessários ao 
+esclarecimento do objeto da perícia.
+
+- Art. 477. O perito protocolará o laudo em juízo, no prazo fixado pelo juiz, 
+pelo menos 20 (vinte) dias antes da audiência de instrução e julgamento.
+
+-  Art. 476. Se o perito, por motivo justificado, não puder apresentar o laudo 
+dentro do prazo, o juiz poderá conceder-lhe, por uma vez, prorrogação pela 
+metade do prazo originalmente fixado.
+
 ## Quesitos
 
 - @meirelles [p. 385]:
   - Entende-se por _quesito_ toda indagação escrita e articulada, feita ao 
   perito, visando aos pontos a serem esclarecidos no laudo.
-
-- No laudo devem ser respondidos todos os quesitos deferidos pelo juiz,
+  
+- Art. 477 (...)
+  - $\S 1^\circ$ As partes serão intimadas para, querendo, manifestar-se sobre o
+  laudo do perito do juízo no prazo comum de 15 (quinze) dias, podendo o 
+  assistente técnico de cada uma das partes, em igual prazo, apresentar seu 
+  respectivo parecer.
+  - $\S 2^\circ$ O perito do juízo tem o dever de, no prazo de 15 (quinze) dias,
+  esclarecer ponto:
+    i. sobre o qual exista divergência ou dúvida de qualquer das partes, do juiz
+    ou do órgão do Ministério Público;
+    ii. divergente apresentado no parecer do assistente técnico da parte.
+    iii. Se ainda houver necessidade de esclarecimentos, a parte requererá ao 
+    juiz que mande intimar o perito ou o assistente técnico a comparecer à 
+    audiência de instrução e julgamento, formulando, desde logo, as perguntas, 
+    **sob forma de quesitos**.
+  
+- Art. 470. Incumbe ao juiz:
+  i. indeferir quesitos impertinentes;
+  ii. formular os quesitos que entender necessários ao esclarecimento da causa.
+  
+- No laudo devem ser respondidos todos os **quesitos deferidos pelo juiz**,
 mencionando-se os fatos e circunstâncias em que se baseiam as conclusões e
 respostas às indagações das partes, do Ministério Público ou do magistrado,
 podendo ser instruído com plantas, desenhos, *croquis*, fotografias e quaisquer
 outros elementos elucidativos da perícia
+  
+## Quesitos
 
+- Art. 465. O juiz nomeará perito especializado no objeto da perícia e fixará de
+imediato o prazo para a entrega do laudo.
+  - $\S 1^\circ$ Incumbe às partes, dentro de 15 (quinze) dias contados da 
+  intimação do despacho de nomeação do perito:  
+  i. arguir o impedimento ou a suspeição do perito, se for o caso;
+  ii. indicar assistente técnico;
+  iii. **apresentar quesitos**.
+  
+- Art. 469. As partes poderão apresentar **quesitos suplementares** durante a 
+diligência, que poderão ser respondidos pelo perito previamente ou na audiência 
+de instrução e julgamento.
+  - Parágrafo único. O escrivão dará à parte contrária ciência da juntada dos
+  quesitos aos autos.
+  
+## Parecer Técnico
+
+- O Parecer Técnico (das partes) pode ser [@ibapesp13, p. 666]:
+  - Concordante;
+  - Parcialmente Discordante; ou
+  - Discordante
+  
+## Parecer Técnico
+
+- Art. 472. O juiz poderá dispensar prova pericial quando as partes, na inicial
+e na contestação, apresentarem, sobre as questões de fato, **pareceres técnicos**
+ou documentos elucidativos que considerar suficientes.
+  
 
 ## Principais Normas Técnicas
 
@@ -365,6 +583,15 @@ conteúdos
 de manutenção
 
 - NBR 16.280/2024 - Reforma em edificações - Sistema de gestão de reformas - Requisitos
+
+## Ética profissional
+
+- [Lei 5.194/1966](https://www.planalto.gov.br/ccivil_03/Leis/L5194.htm):
+  - Regula o exercício das profissões de Engenheiro, Arquiteto e 
+  Engenheiro-Agrônomo, e dá outras providências.
+
+- [Código de ética do CONFEA](https://normativos.confea.org.br/Ementas/Visualizar?id=253):
+  - Atualizado pela [Resolução nº 1.002, de 26 de novembro de 2002](https://normativos.confea.org.br/Ementas/Visualizar?id=542).
 
 ## Principais Normas Técnicas
 

@@ -337,7 +337,7 @@ vida útil
     - 40 anos: $V = (1-0,0372)^{40}\cdot 1.000.000 = 0,2192 \cdot 800.000 = 219.200,00$
     - 50 anos: $V = (1-0,0372)^{50}\cdot 1.000.000 = 0,1500 \cdot 800.000 = 150.000,00$
   
-## Razões (Fleischer)
+## Método do Valor Decrescente: Razões [@fleischer]
 
 | TIPO                                            | Vida útil | Razão    (%) |
 |-------------------------------------------------|-----------|--------------|
@@ -349,6 +349,10 @@ vida útil
 | Construções de Madeira                          | 25        | 6,23         |
 
 : Razões a considerar no método do valor decrescente
+
+- The declining balance method is an accelerated way to record larger 
+depreciation in an asset's early years. The system records smaller depreciation 
+expenses during the asset's later years.
 
 ## Método de Kuentzle
 

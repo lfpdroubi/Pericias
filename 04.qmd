@@ -221,11 +221,14 @@ almejados e impostos incidentes, através da equação abaixo:
   
 ## Preço de Venda e BDI
 
-- $$\text{PV} = \text{CD}\cdot(1+\text{BDI%})$$
-
-- $\text{CD}$ é o custo direto da obra;
-- $\text{BDI%}$ é o percentual a ser aplicado sobre o custo da obra para a
+- Conforme @NBR13752 [p. 26] e @mattos2019 [p. 283]:
+  - $$\text{PV} = \text{CD}\cdot(1+\text{BDI%})$$
+    - $\text{CD}$ é o custo direto da obra;
+    - $\text{BDI%}$ é o percentual a ser aplicado sobre o custo da obra para a
 obtenção do preço de venda
+
+- Ou, de forma inversa:
+  - $$\text{BDI%} = \frac{\text{PV}}{\text{CD}} - 1$$
 
 ## Composição do BDI
 
@@ -258,6 +261,20 @@ faturamento (IR não entra!)
 
 - O BDI pode ser calculado conforme a fórmula abaixo [@mattos2019, p. 291]:
   - $$\text{BDI%} = \frac{(1+\text{CI})\cdot(1 + \text{AC} + \text{DF} + \text{IC})}{1-(\text{LO%} + \text{IMP%})} - 1$$
+  
+## Fórmula do BDI
+
+- A fórmula de @mattos2019 parace se referir exclusivamente às obras de
+empreitada.
+
+- @mozart [p. 7] apresentra fórmulas de BDI diferentes:
+  - Para empreitadas:
+    - $$\text{BDI (%)} = \frac{\text{preço} - \text{custo direto}}{\text{custo direto}}\times 100$$
+  - Para administração:
+    - $$\text{BDI (%)} = \frac{\text{preço} - \text{custo base}}{\text{custo base}}\times 100$$
+    
+- Custo base [@mozart, p. 156]:
+  - $$C_b = CD + A_L + \text{IC}$$
   
 ## Impostos
 

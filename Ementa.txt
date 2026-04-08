@@ -1,12 +1,43 @@
-Ementa: 
-Legislação edilícia 
-Uso das normas técnicas 
-Tipos de perícias de engenharia 
-Relação entre os procedimentos periciais e as ações judiciais 
-Perícias de engenharia e prazos legais (garantia, prescrição, decadência) 
-Perícias de engenharia e as responsabilidades na construção civil (objetiva x subjetiva) 
-Noções de anomalias nas edificações 
-Bibliografia: 
-Fiker, José – Manual de avaliações e perícias em imóveis urbanos – Editora Oficina de Textos – São Paulo, 2011. 
-Marques, José – Perícias em edificações – editora LEUD – São Paulo, 2015. 
-Meireles, Hely Lopes – Direito de construir – editora Revista dos Tribunais – São Paulo, 2005.
+Título da disciplina: Perícias de Engenharia na Construção Civil
+
+Ementa:
+
+1. Perícias e Processo Judicial: Etapas de um processo judicial; Perícias:
+terminologia básica; Relação entre os procedimentos periciais e as ações judiciais;
+Tipos de perícias de engenharia: exame, vistoria e avaliação;
+NBR 13.752 - Perícias de Engenharia na Construção Civil: Marcos relevantes
+relacionados à perícia, Espécies de Perícia e Requisitos específicos;
+Perícias de engenharia e as responsabilidades na construção civil (objetiva x subjetiva);
+Engenharia Legal: Engenharia Diagnóstica e Engenharia de Avaliações; Engenharia
+de Custos.
+
+2. Engenharia Diagnóstica: Ferramentas; Noções de anomalias nas edificações;
+Manifestações patologicas mais frequentes; Perícias de engenharia e prazos
+legais (garantia, prescrição, decadência); NBR 17.170 - Norma de Garantias:
+NBR 15.575 - Norma de Desempenho: terminologia, requisitos e incumbências.
+Lei de Sitter.
+
+3. Engenharia de Avaliações: tipos de perícias que envolvem Engenharia de
+Avaliações; Desapropriações: aspectos gerais; Método Evolutivo; Método da
+Quantificação do Custo; Depreciação; Fator de Comercialização.
+
+4. Engenharia de  Custos: Lei 4.591/1964; NBR 12.721 - Custos Unitários. BDI
+para empreitada. BDI para administração. Desoneração. Reforma Tributária e BDI.
+Reequilíbrio Econômico-Financeiro; Matriz de Risco de Contrato.
+
+Legislação edilícia
+Uso das normas técnicas
+
+
+Bibliografia:
+1. Fiker, José – Manual de avaliações e perícias em imóveis urbanos – Editora Oficina de Textos – São Paulo, 2011.
+2. Marques, José – Perícias em edificações – editora LEUD – São Paulo, 2015.
+3. Mattos, Aldo Dórea. 2019. Como preparar orçamento de obras. 3.ª ed. São Paulo, SP: Oficina de Textos.
+4. Meirelles, Hely Lopes. 2013. Direito de Construir. 11.ª ed. São Paulo, SP: Malheiros Editores.
+5. Medeiros Jr., Joaquim da Rocha e Fiker, José. 2013. A perícia judicial: como redigir
+laudos e argumentar dialeticamente. 4ª ed. São Paulo, SP: Leud.
+6. Silva, Mozart Bezerra da. 2006. Manual de BDI: Como incluir benefícios e
+despesas indiretas em orçamentos de obras de construção civil. 1.ª ed. Edgar
+Blucher Ltda.
+
+
